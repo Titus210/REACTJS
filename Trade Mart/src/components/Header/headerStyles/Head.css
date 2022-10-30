@@ -1,42 +1,18 @@
-.background {
-    background-color: var(--white-color);
+/*----------------------Head ---------------------*/
+
+.head {
+    background-color: #0f3460;
+    padding: 0.625rem 0;
+    color: #fff;
 }
 
-.contWrapper {
-    max-width: 90%;
-    margin: auto;
+.head i {
+    margin-right: 0.625rem;
 }
 
-.d_flex {
-    display: flex;
-    justify-content: space-between;
+.head label {
+    margin-right: 1.875rem;
+    font-size: 0.8125rem;
 }
 
-.c_flex {
-    display: flex;
-    justify-content: space-between;
-}
-
-f_flex {
-    display: flex;
-}
-
-a {
-    text-decoration: none;
-}
-
-li {
-    list-style-type: none;
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.capitalize {
-    text-transform: capitalize;
-}
-
-.rText {
-    text-align: right;
-}
+/*----------------------Head ---------------------*/

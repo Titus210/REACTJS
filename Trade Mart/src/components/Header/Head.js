@@ -1,6 +1,7 @@
 import React from 'react'
-import "./header.css"
+
 import "./headerStyles/Head.css"
+import "./headerStyles/Header.css"
 function Head() {
     return (
         <>

@@ -1,0 +1,90 @@
+.logo a {
+    display: inline-block;
+    color: var(--dark-color);
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+
+.logo span {
+    color: var(--orange-color);
+}
+
+
+.search {
+    padding: 0.725rem 0;
+
+}
+
+.search .logo {
+    width: auto;
+    height: auto;
+}
+
+.search .width {
+    width: 20%;
+}
+
+.search-box {
+    width: 80%;
+
+}
+
+.search-box i {
+    width: 5%;
+    text-align: center;
+    font-size: 1.125rem;
+    opacity: 0.5;
+    padding: 0.9375rem 1.525rem;
+    font-size: 1.0625rem;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 0.625rem;
+    height: 2.425rem;
+}
+
+input::placeholder {
+    font-size: 0.9375rem;
+}
+
+.search .category {
+    width: 20%;
+    opacity: 0.5;
+
+    padding: 0.525rem;
+}
+
+.cart {
+    position: relative;
+
+}
+
+.search .cart span {
+    position: absolute;
+    top: -0.625rem;
+    right: 0;
+    width: 0.95rem;
+    height: 0.95rem;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #e94560;
+    font-size: 0.75rem;
+    color: var(--white-color);
+}
+
+.serach .f_flex {
+    justify-content: end;
+}
+
+.search .active {
+    height: 12vh;
+    position: fixed;
+    ;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: var(--white-color);
+    box-shadow: -0.625rem 0.6875rem 1.5rem rgba(0, 0, 0, 0.24);
+    transition: 0.5s;
+}
