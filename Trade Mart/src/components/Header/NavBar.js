@@ -27,7 +27,7 @@ const NavBar = () => {
                                 <Link to="/user">User Account</Link>
                             </li>
                             <li>
-                                <Link to="/wholeseller">Wholesaler account</Link>
+                                <Link to="/wholeseller"> account</Link>
                             </li>
                             <li>
                                 <Link to="/track">track my order</Link>

@@ -9,10 +9,11 @@ import Search from './Search';
 function Header() {
   return (
     <>
+
       <Head />
-        <Search />
-      <NavBar />
-   
+      <Search />
+      <NavBar/>
+
 
     </>
   )
