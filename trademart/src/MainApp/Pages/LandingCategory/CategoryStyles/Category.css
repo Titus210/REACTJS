@@ -1,0 +1,51 @@
+.navCategory {
+    width: 22%;
+    box-shadow: var(--box-shadow);
+    height: fit-content;
+    padding: 0.0375rem 0rem;
+    border-radius: 0.3125rem;
+    margin-top: 0.1125rem;
+    margin-left: 0.8125rem;
+}
+
+.navCategory img {
+    width: 1.875rem;
+    height: 1.875rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: -0.105rem 0.625rem;
+}
+
+.navCategory span {
+    text-transform: capitalize;
+    font-size: 0.775rem;
+    font-weight: 400;
+
+}
+
+.navCategory .box {
+    transition: .5s;
+    padding: 0.8rem 0.25rem;
+
+}
+
+.navCategory .box:hover {
+    background-color: var(--orange-color);
+    cursor: pointer;
+    color: white;
+}
+
+/* Media Query */
+/* Media query */
+@media screen and (max-width:768px) {
+
+    .navCategory {
+
+        display: none;
+
+    }
+
+    .navCategory .box {
+        padding: 0.9rem 0.25rem;
+    }
+}
