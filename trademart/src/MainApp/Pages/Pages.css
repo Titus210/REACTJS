@@ -1,0 +1,23 @@
+.contWrapper {
+    max-width: 95%;
+    margin: auto;
+}
+
+.d_flex {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.c_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f_flex {
+    display: flex;
+}
+
+.row {
+    width: 100%;
+}

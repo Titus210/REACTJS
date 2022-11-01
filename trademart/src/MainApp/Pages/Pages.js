@@ -8,7 +8,7 @@ import Furniture from './Furniture/Furniture'
 import Grocery from './Grocery/Grocery'
 import Interior from './Interior/Interior'
 
-
+import "./Pages.css"
 function Pages() {
   return (
     <>
