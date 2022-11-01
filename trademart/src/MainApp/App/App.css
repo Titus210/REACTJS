@@ -26,4 +26,5 @@
 body {
     background-color: var(--gray-color);
     font-family: var(--poopin-font);
+    max-width:100%
 }
