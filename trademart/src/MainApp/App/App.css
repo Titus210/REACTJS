@@ -9,11 +9,15 @@
     --orange-prim: #fe5d36;
     --gray-color: #f4f4f9;
     --blue: #1711d8;
+    --green-color: #2ec114;
+    --box-shadow: -0.625rem 0.9375rem 1.0625rem 0.5rem rgba(0, 0, 0, 0.19);
+
 }
 
 * {
     margin: 0;
     padding: 0;
+
 
 }
 
@@ -26,5 +30,5 @@
 body {
     background-color: var(--gray-color);
     font-family: var(--poopin-font);
-    max-width:100%
+
 }
