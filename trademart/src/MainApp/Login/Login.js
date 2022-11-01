@@ -1,9 +1,14 @@
 import React, { Component } from 'react'
 
+
+
 export class Login extends Component {
   render() {
     return (
-      <div>Login</div>
+        <form>
+            <input type="text"/>
+            <input type="submit"/>
+        </form>
     )
   }
 }
