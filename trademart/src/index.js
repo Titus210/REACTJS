@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from "./MainApp/App/App"
 
 /*-------------Components Import--------------*/
 // Login COmponent
-import Login from '../src/MainApp/Login/Login'
+
 
 
 
@@ -11,7 +12,7 @@ import Login from '../src/MainApp/Login/Login'
 
 ReactDOM.render(
     <React.StrictMode>
-        <Login/>
+       <App/>
     </React.StrictMode>,
     document.getElementById('trade-mart')
 );
