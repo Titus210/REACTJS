@@ -1,8 +1,12 @@
 import React from 'react'
 
+
+import "./AboutStyles/About.css"
+
+const Aboutimage = require("./AboutImages/business2.jpg")
 function AboutUs() {
   return (
-    <div class="section">
+    <section class="about_us">
       <div class="container">
         <div class="cont-section">
           <div class="title">
@@ -30,10 +34,10 @@ function AboutUs() {
           </div>
         </div>
         <div class="image-section">
-          <img src="business2.jpg" alt="About Image"/>
+          <img src={Aboutimage} alt ="img"/>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

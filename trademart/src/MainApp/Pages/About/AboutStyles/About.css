@@ -1,15 +1,18 @@
-.section {
+.about_us {
     width: 100%;
-    min-height: 60vh;
+
     background-color: #ddd;
+    position: relative;
+    display: inline-block;
 
 }
 
 .container {
     width: 80%;
-    display: block;
+
     padding-top: 2.225rem;
     margin: 0 auto;
+
 
 }
 
@@ -31,7 +34,7 @@
 }
 
 .cont-section .content h3 {
-    margin-top: 1.125rem;
+    margin-top: 0.725rem;
     color: #5d5d5d;
     font-size: 1.22rem;
 }
@@ -98,10 +101,6 @@
 }
 
 @media screen and (max-width: 768px) {
-    .section {
-        background-color: initial;
-    }
-
     .container {
         width: 100%;
         display: block;
@@ -115,7 +114,7 @@
     .container::before {
 
         content: "";
-        background: url("./business2.jpg");
+        background: url("../AboutImages/business2.jpg");
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -161,3 +160,4 @@
         font-size: 0.7rem;
     }
 }
+
