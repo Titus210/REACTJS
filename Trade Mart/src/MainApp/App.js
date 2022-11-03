@@ -4,7 +4,8 @@ import Header from '../components/Header/Header'
 
 
 
-// import Login from '../Components/LandingPage/SignIn/SignIn'
+
+import SignUp from '../components/LandingPage/SignUp/signUp'
 
 import "./app.css"
 
@@ -12,9 +13,7 @@ import "./app.css"
 function App() {
   return (
     <div>
-      <Header/>
-    
-     
+    <SignUp/>
     </div>
   )
 }

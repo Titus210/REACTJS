@@ -1,5 +1,7 @@
 import React from 'react'
-import "../SignIn/SignIn.css"
+
+import "../LoginStyles/LoginSignIn.css"
+    
 function SignUp() {
     return (
 
