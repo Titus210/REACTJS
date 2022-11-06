@@ -1,0 +1,84 @@
+.flashHeader {
+   
+    margin-left: 70px;
+    padding:0.92rem;
+}
+
+
+.FlashWrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+
+
+}
+
+.FlashCard {
+    background: #f6f9fc;
+    padding: 7px 0 10px 0;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
+    width: 15%;
+    margin-bottom: 12px;
+}
+
+.fa-star {
+    color: #FFDF00;
+}
+
+.product {
+    position: relative;
+    padding: 0 10px;
+    text-align: center;
+
+
+}
+
+.FlashCard img {
+    width: 100%;
+    object-fit: contain;
+    display: block;
+    padding: 0 10px;
+    border-radius: 20px 20px 0 0;
+
+}
+
+.FlashCard img:last-child {
+    width: 200px;
+}
+
+
+.product .visit-button {
+    border: none;
+    font-size: 1rem;
+    color: var(--white-color);
+    padding: 0.5rem 1rem;
+    background-color: var(--main-color);
+    border-radius: 0.375rem;
+    margin: 14px;
+    position: relative;
+    top: 20%;
+    cursor: pointer;
+}
+
+.product .visit-button:hover {
+    background-color: var(--green-color);
+}
+
+
+/* Media Query */
+
+@media screen and (max-width:1200px) {
+    .FlashCard {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .FlashCard {
+        width: 45%;
+
+    }
+}

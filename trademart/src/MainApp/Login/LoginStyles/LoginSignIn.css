@@ -131,7 +131,7 @@ ul {
 }
 
 
-form input:not(#terms, #remember) {
+form input:not(#terms, #remember),select {
     font-family: inherit;
     width: 100%;
     margin: 0 0 1.25rem;
