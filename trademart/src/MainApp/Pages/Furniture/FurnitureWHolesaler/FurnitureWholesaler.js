@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ContactUs from '../../../WholesalersMain/Common/ContactUS/ContactUs'
 import CommonHeader from '../../../WholesalersMain/Common/Header'
 import Chairs from './DisplayItems/chairs'
 
@@ -18,8 +19,12 @@ class FurnitureWholesaler extends Component {
                 <Chairs/>
                 <Chairs/>
             </div>
+            
             <div className="delivery"></div>
             <div className="about-us"></div>
+            <div className="contact-us">
+              <ContactUs/>
+            </div>
             <div className="footer"></div>
         </>
     )

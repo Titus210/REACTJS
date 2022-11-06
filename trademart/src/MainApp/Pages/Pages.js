@@ -12,6 +12,7 @@ import "./Pages.css"
 function Pages() {
   return (
     <>
+  
     <Category/>
     <FlashSale/>
     <Grocery/>
