@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router } from "react-router-dom"
+
+import SliderHome from '../Pages/Furniture/FurnitureWHolesaler/DisplayItems/Slider/Slideritems';
 import Wholesaler from '../WholesalersMain/wholesaler';
 
 // Importing Components
@@ -12,7 +14,7 @@ export class App extends Component {
         return (
             <Router>
                 
-               <Wholesaler/>
+               <SliderHome/>
             </Router>
         )
     }

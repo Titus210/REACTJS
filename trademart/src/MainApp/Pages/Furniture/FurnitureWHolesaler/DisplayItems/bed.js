@@ -3,54 +3,48 @@ import "../../../../WholesalersMain/Common/categories.css"
 function Chairs() {
     const FlashData = [
         {
-            itemImg: require("../../FurnitureImages/chair_5.jpg"),
-            itemName: "Apples",
-            itemShop: "The Green Grocery",
-            itemPrice: 1200,
+            itemImage: require("../../FurnitureImages/bed_1.jpg"),
+            ItemName: "Apples",
+            ItemPrice: 1200,
             itemCategory: "Vegetables"
         },
         {
-            itemImg: require("../../FurnitureImages/chair_6.jpg"),
-            itemName: "Leather Couch",
-            itemShop: "Sofa Store",
-            itemPrice: 1200,
-            itemCategory: "Furniture"
+            itemImage: require("../../FurnitureImages/bed_5.jpg"),
+            ItemName: "Apples",
+            ItemPrice: 1200,
+            itemCategory: "Vegetables"
         },
         {
-            itemImg: require("../../FurnitureImages/chair_3.jpg"),
-            itemName: "Leather Couch",
-            itemShop: "Sofa Store",
-            itemPrice: 1200,
-            itemCategory: "Furniture"
+            itemImage: require("../../FurnitureImages/bed_2.jpg"),
+            ItemName: "Apples",
+            ItemPrice: 1200,
+            itemCategory: "Vegetables"
         },
         {
-            itemImg: require("../../FurnitureImages/chair_5.jpg"),
-            itemName: "Leather Couch",
-            itemShop: "Sofa Store",
-            itemPrice: 1200,
-            itemCategory: "Furniture"
+            itemImage: require("../../FurnitureImages/bed_4.jpg"),
+            ItemName: "Apples",
+            ItemPrice: 1200,
+            itemCategory: "Vegetables"
         },
         {
-            itemImg: require("../../FurnitureImages/chair_6.jpg"),
-            itemName: "Wall Lamp",
-            itemShop: "Decor Shop",
-            itemPrice: 12000,
-            itemCategory: "Interior"
+            itemImage: require("../../FurnitureImages/bed_3.jpg"),
+            ItemName: "Apples",
+            ItemPrice: 1200,
+            itemCategory: "Vegetables"
         },
         {
-            itemImg: require("../../FurnitureImages/chair_3.jpg"),
-            itemName: "Wall Lamp",
-  
-            itemPrice: 12000,
-            itemCategory: "Interior"
+            itemImage: require("../../FurnitureImages/bed_1.jpg"),
+            ItemName: "Apples",
+            ItemPrice: 1200,
+            itemCategory: "Vegetables"
         },
         {
-            itemImg: require("../../FurnitureImages/chair_3.jpg"),
-            itemName: "Wall Lamp",
-            itemShop: "Decor Shop",
-            itemPrice: 12000,
-            itemCategory: "Interior"
-        }
+            itemImage: require("../../FurnitureImages/bed_3.jpg"),
+            ItemName: "Apples",
+            ItemPrice: 1200,
+            itemCategory: "Vegetables"
+        },
+
     ]
 
 
@@ -70,9 +64,10 @@ function Chairs() {
 
                             <div className="FlashCard">
                                 <div className="product">
-                                    <img height="100px" src={value.itemImg} alt="" />
+                                    <img height="100px" src={value.itemImage} alt="" />
                                     <div className="description">
                                         <span>{value.itemName}</span>
+                                        <h5>{value.ItemPrice}</h5>
                                         <div className="star">
                                             <i className="fa fa-star"></i>
                                             <i className="fa fa-star"></i>
