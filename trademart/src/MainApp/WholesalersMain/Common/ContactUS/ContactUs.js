@@ -1,5 +1,6 @@
 import React from 'react'
 
+import "./ContactUS.css"
 function ContactUs() {
   const Details = [
     {
@@ -42,20 +43,27 @@ function ContactUs() {
                     <p>{value.userEmail}</p>
                   </div>
                 </div>
+
+                {/* Contact Form */}
+
                 <div className="contactForm">
                   <form action="">
                     <h2>Send Message</h2>
                     <div className="inputBox">
                       <input type="text" />
-                      <span></span>
+                      <span>Full Name</span>
                     </div>
                     <div className="inputBox">
                       <input type="text" />
-                      <span></span>
+                      <span>Email</span>
                     </div>
                     <div className="inputBox">
-                      <input type="text" />
-                      <span></span>
+                      <textarea required = "required"></textarea>
+                      <span>Type your Message here</span>
+                    </div>
+                    <div className="inputBox">
+                      <input type="submit" />
+                      <span>Send Message</span>
                     </div>
                   </form>
                 </div>
