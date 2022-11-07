@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
+
+
+// Components
 import FurnitureWholesaler from '../Pages/Furniture/FurnitureWHolesaler/FurnitureWholesaler'
-import ContactUs from './Common/ContactUS/ContactUs'
+import GroceryWholesaler from '../Pages/Grocery/GroceryWholesaler/GroceryWholesale'
 
 
-import CommonHeader from './Common/Header'
+
 
 
 

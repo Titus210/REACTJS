@@ -13,8 +13,7 @@ export class App extends Component {
     render() {
         return (
             <Router>
-                
-               <SliderHome/>
+             <Wholesaler/>
             </Router>
         )
     }

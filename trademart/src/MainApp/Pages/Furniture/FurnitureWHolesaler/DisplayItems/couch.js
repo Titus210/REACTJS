@@ -33,13 +33,7 @@ function Couch() {
             itemCategory: "Vegetables"
         },
         {
-            itemImage: require("../../FurnitureImages/couch_1.jpg"),
-            ItemName: "Apples",
-            ItemPrice: 1200,
-            itemCategory: "Vegetables"
-        },
-        {
-            itemImage: require("../../FurnitureImages/couch_7.jpg"),
+            itemImage: require("../../FurnitureImages/couch_5.jpg"),
             ItemName: "Apples",
             ItemPrice: 1200,
             itemCategory: "Vegetables"

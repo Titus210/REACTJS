@@ -23,16 +23,10 @@
     margin-bottom: 12px;
 }
 
-.fa-star {
-    color: #f6d70b;
-}
 
 .product {
     position: relative;
     /* padding: 0 10px; */
-    text-align: center;
-
-
 }
 
 .FlashCard img {
@@ -51,12 +45,12 @@
 
 .product .visit-button {
     border: none;
-    font-size:0.7rem;
+    font-size: 0.67rem;
     color: var(--white-color);
-    padding: 0.5rem 1rem;
-    background-color: var(--primary-main);
+    padding: 0.3rem 0.57rem;
+    background-color: #1377b1;
     border-radius: 0.375rem;
-    margin: 12px;
+    margin: auto 12px;
     position: relative;
     cursor: pointer;
 }
@@ -65,11 +59,54 @@
     background-color: var(--orange-color);
 }
 
-.add-cart{
-    display:flex ;
+.add-cart {
+    display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
+
+.description {
+    margin-left: 7%;
+
+}
+
+.description .itemName {
+    font-size: 0.65rem;
+    text-align: left;
+
+}
+
+.description .price {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description .price {
+    font-size: 12px;
+}
+.description .price .newPrice{
+    color:var
+}
+
+.price .cents{
+    font-size:10px;
+    color:var(--green-color)
+}
+
+.star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.star .fa {
+    color: rgb(209, 142, 17);
+}
+
+
 /* Media Query */
 
 @media screen and (max-width:1200px) {
