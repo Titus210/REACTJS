@@ -14,9 +14,9 @@ export class Wholesaler extends Component {
   render() {
     return (
       <>
-      <CommonHeader/>
+
       <FurnitureWholesaler/>
-      <ContactUs/>
+  
       </>
     )
   }
