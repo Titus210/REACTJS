@@ -44,13 +44,7 @@ function Chairs() {
             itemPrice: 12000,
             itemCategory: "Interior"
         },
-        {
-            itemImg: require("../../FurnitureImages/chair_3.jpg"),
-            itemName: "Wall Lamp",
-            itemShop: "Decor Shop",
-            itemPrice: 12000,
-            itemCategory: "Interior"
-        }
+
     ]
 
 

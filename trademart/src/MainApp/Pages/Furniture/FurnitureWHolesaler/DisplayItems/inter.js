@@ -38,13 +38,6 @@ function Inter() {
             ItemPrice: 1200,
             itemCategory: "Vegetables"
         },
-        {
-            itemImage: require("../../FurnitureImages/Complete_2.jpg"),
-            ItemName: "Apples",
-            ItemPrice: 1200,
-            itemCategory: "Vegetables"
-        },
-
     ]
 
 

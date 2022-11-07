@@ -17,7 +17,7 @@ class FurnitureWholesaler extends Component {
         <>
             <CommonHeader/>
             <div className="categories">
-            <SliderHome/>
+            {/* <SliderHome/> */}
             </div>
             <div className="new-products"></div>
             <div className="shop-items">
