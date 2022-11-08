@@ -4,47 +4,47 @@ function Chairs() {
     const FlashData = [
         {
             itemImage: require("../../FurnitureImages/bed_1.jpg"),
-            ItemName: "Apples",
-            ItemPrice: 1200,
-            itemCategory: "Vegetables"
+            ItemName: "4 by 6 Wooden Bed",
+            itemNewPrice: 100,
+            itemQuantity: 2,
+            itemCategory: "Beds"
         },
         {
             itemImage: require("../../FurnitureImages/bed_5.jpg"),
-            ItemName: "Apples",
-            ItemPrice: 1200,
-            itemCategory: "Vegetables"
+            ItemName: "4 by 6 Wooden Bed",
+            itemNewPrice: 100,
+            itemQuantity: 2,
+            itemCategory: "Beds"
         },
         {
             itemImage: require("../../FurnitureImages/bed_2.jpg"),
-            ItemName: "Apples",
-            ItemPrice: 1200,
-            itemCategory: "Vegetables"
+            ItemName: "4 by 6 Wooden Bed",
+            itemNewPrice: 100,
+            itemQuantity: 2,
+            itemCategory: "Beds"
         },
         {
             itemImage: require("../../FurnitureImages/bed_4.jpg"),
-            ItemName: "Apples",
-            ItemPrice: 1200,
-            itemCategory: "Vegetables"
+            ItemName: "4 by 6 Wooden Bed",
+            itemNewPrice: 100,
+            itemQuantity: 2,
+            itemCategory: "Beds"
         },
         {
             itemImage: require("../../FurnitureImages/bed_3.jpg"),
-            ItemName: "Apples",
-            ItemPrice: 1200,
-            itemCategory: "Vegetables"
+            ItemName: "4 by 6 Wooden Bed",
+            itemNewPrice: 100,
+            itemQuantity: 2,
+            itemCategory: "Beds"
         },
         {
             itemImage: require("../../FurnitureImages/bed_1.jpg"),
-            ItemName: "Apples",
-            ItemPrice: 1200,
-            itemCategory: "Vegetables"
+            ItemName: "4 by 6 Wooden Bed",
+            itemNewPrice: 100,
+            itemQuantity: 2,
+            itemCategory: "Beds"
         },
-        {
-            itemImage: require("../../FurnitureImages/bed_3.jpg"),
-            ItemName: "Apples",
-            ItemPrice: 1200,
-            itemCategory: "Vegetables"
-        },
-
+ 
     ]
 
 
@@ -53,7 +53,7 @@ function Chairs() {
 
         <section className="FlashSale">
             <div className="flashHeader">
-                <h3>Chair </h3>
+                <h3> Beds </h3>
 
             </div>
             <div className="FlashWrapper">
@@ -66,19 +66,23 @@ function Chairs() {
                                 <div className="product">
                                     <img height="100px" src={value.itemImage} alt="" />
                                     <div className="description">
-                                        <span>{value.itemName}</span>
-                                        <h5>{value.ItemPrice}</h5>
+                                        <span class="itemName">{value.ItemName}</span>
+
+                                        <div className="price">
+                                            <span className="newPrice">${value.itemNewPrice}<span class="cents">.00</span></span>
+                                            <button class="visit-button"><i class="fas fa-shopping-cart"></i></button>
+                                        </div>
                                         <div className="star">
                                             <i className="fa fa-star"></i>
                                             <i className="fa fa-star"></i>
                                             <i className="fa fa-star"></i>
                                             <i className="fa fa-star"></i>
-                                            <i className="fa fa-star"></i>
+                                            <i className="fa fa-star-half-o"></i>
                                         </div>
-                                        <div className="add-cart"><button class="visit-button">Add To Cart</button></div>
                                     </div>
                                 </div>
                             </div>
+
 
                         )
                     })

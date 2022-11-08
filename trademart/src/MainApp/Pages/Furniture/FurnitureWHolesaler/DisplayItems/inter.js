@@ -46,7 +46,7 @@ function Inter() {
 
         <section className="FlashSale">
             <div className="flashHeader">
-                <h3>Chair </h3>
+                <h3>Customized Interior </h3>
 
             </div>
             <div className="FlashWrapper">
