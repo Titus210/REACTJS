@@ -1,44 +1,65 @@
 .home {
     display: flex;
-    align-items: center;
-    min-height: 100vh;
-    background: url(../../GroceryImages/Item_4.jpg) no-repeat;
+    min-height: 70vh;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     object-fit: cover;
+    justify-content: center;
 }
 
-/* .home .content {
-    max-width: 50rem;
-    background:rgb(216, 216, 216);
-} */
+.home .content {
+    display: inline-block;
+    margin: 0 auto;
+    position: absolute;
+    top: 22%;
+    text-align: center;
+}
 
 .home .content h3 {
-    font-size: 2rem;
-    color: rgb(255, 255, 255);
+    position: relative;
+    font-size: 2.7rem;
+    color: var(--orange-color);
 }
 
 .home .content span {
-    font-size: 2.5rem;
-    color: var(--green-color);
-    padding: 1rem 0;
-    line-height: 1.5;
-}
-
-.home .content p {
     font-size: 1.5rem;
     color: rgb(255, 255, 255);
     padding: 1rem 0;
     line-height: 1.5;
 }
 
-.shopNow{
+.home .content p {
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    padding: 0.2rem 0;
+}
+
+.shopNow {
     text-align: center;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
+    padding: 0.7rem 1.2rem;
+    background: var(--primary-main);
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    margin-top: 12%;
+
+
+}
+
+.shopNow:hover {
+    background-color: var(--orange-color);
 }
 
 
-@media screen and (max-width: 768px{
-    
-} 
+@media screen and (max-width: 768px) {
+    .home {
+        height: auto;
+    }
+
+    .home .content p {
+        font-size: 0.7rem;
+    }
+}

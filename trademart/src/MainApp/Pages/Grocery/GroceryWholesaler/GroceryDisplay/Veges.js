@@ -4,46 +4,46 @@ function Veges() {
     const FlashData = [
         {
             itemImg: require("../../GroceryImages/Carrot.png"),
-            itemName: "Apples",
+            itemName: "Carrots",
             itemQuantity: 2,
             itemNewPrice: 100,
             itemCategory: "Vegetables"
         },
         {
             itemImg: require("../../GroceryImages/kales.jpg"),
-            itemName: "Leather Couch",
+            itemName: "Kales",
             itemQuantity: 2,
             itemNewPrice: 100,
-            itemCategory: "Furniture"
+            itemCategory: "Vegetables"
         },
         {
             itemImg: require("../../GroceryImages/brocolli.jpg"),
-            itemName: "Leather Couch",
+            itemName: "",
             itemQuantity: 2,
             itemNewPrice: 100,
-            itemCategory: "Furniture"
+            itemCategory: "Vegetables"
         },
         {
             itemImg: require("../../GroceryImages/bell_pepper.jpg"),
             itemName: "Bell Pepper",
             itemQuantity: 2,
             itemNewPrice: 100,
-            itemCategory: "Furniture"
+            itemCategory: "Vegetables"
         },
         {
             itemImg: require("../../GroceryImages/eggplant.jpg"),
             itemName: "Egg Plant",
             itemQuantity: 2,
             itemNewPrice: 100,
-            itemCategory: "Interior"
+            itemCategory: "Vegetables"
         },
 
         {
             itemImg: require("../../GroceryImages/Onion.png"),
-            itemName: "Wall Lamp",
+            itemName: "Onions",
             itemQuantity: 2,
             itemNewPrice: 100,
-            itemCategory: "Interior"
+            itemCategory: "Vegetables"
         }
     ]
 
