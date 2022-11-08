@@ -14,9 +14,7 @@ function ContactUs() {
       <section className="contact">
         <div className="content">
           <h3>Contact Us</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing
-            elit. Repellat minima, consectetur excepturi odio assumenda laborum totam exercitationem
-            atque sapiente. Aut, sint. Maxime at laudantium ex, quaerat dicta molestias? Non, perferendis?
+          <p>Our location
           </p>
         </div>{
           Details.map((value) => {

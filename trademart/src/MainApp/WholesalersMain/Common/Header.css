@@ -47,6 +47,15 @@
         var(--green-color);
 }
 
+.icons .cart>span {
+    position: absolute;
+    top: 0;
+    right: 96px;
+    font-size: 12px;
+    color:red;
+}
+
+
 .links {
     background-color: rgba(0, 123, 255, 0.8);
     margin-top: 0rem;
@@ -65,6 +74,8 @@
 
 
 
+
+
 @media screen and (max-width:600px) {
     .header {
         grid-template-columns: auto auto;
@@ -77,5 +88,9 @@
         grid-row: 2;
         grid-column: 1/span 2;
         padding-top: 0.82em;
+    }
+
+    .icons .cart>span {
+        right:80px;
     }
 }

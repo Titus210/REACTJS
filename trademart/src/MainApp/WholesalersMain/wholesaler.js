@@ -4,6 +4,7 @@ import React, { Component } from 'react'
 // Components
 import FurnitureWholesaler from '../Pages/Furniture/FurnitureWHolesaler/FurnitureWholesaler'
 import GroceryWholesaler from '../Pages/Grocery/GroceryWholesaler/GroceryWholesale'
+import InteriorWholesaler from '../Pages/Interior/InteriorWholesaler/InteriorWholesaler'
 
 
 
@@ -17,9 +18,7 @@ export class Wholesaler extends Component {
   render() {
     return (
       <>
-
-      <FurnitureWholesaler/>
-  
+        <InteriorWholesaler />
       </>
     )
   }

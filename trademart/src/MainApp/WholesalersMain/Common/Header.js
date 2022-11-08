@@ -23,7 +23,7 @@ function CommonHeader() {
         
         <div className="icons">
           <Link to="/"><i className="fa fa-heart"></i></Link>
-          <Link to="/"><i className="fa fa-shopping-cart"></i></Link>
+          <Link to="/" class = "cart"><i className="fa fa-shopping-cart"></i><span>0</span></Link>
           <Link to="/"><i className="fa fa-user"></i></Link>
           <Link to="/"><i className="fa fa-bars" onClick= {() =>setShow(!show)} ></i></Link>
         </div>
