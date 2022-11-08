@@ -5,38 +5,44 @@ function Couch() {
         {
             itemImage: require("../../FurnitureImages/couch_1.jpg"),
             ItemName: "Apples",
-            ItemPrice: 1200,
-            itemCategory: "Vegetables"
+            itemNewPrice: 100,
+            itemQuantity: 2,
+            itemCategory: "Couch"
         },
         {
             itemImage: require("../../FurnitureImages/couch_2.jpg"),
             ItemName: "Apples",
-            ItemPrice: 1200,
-            itemCategory: "Vegetables"
+            itemNewPrice: 100,
+            itemQuantity: 2,
+            itemCategory: "Couch"
         },
         {
             itemImage: require("../../FurnitureImages/couch_3.jpg"),
             ItemName: "Apples",
-            ItemPrice: 1200,
-            itemCategory: "Vegetables"
+            itemNewPrice: 100,
+            itemQuantity: 2,
+            itemCategory: "Couch"
         },
         {
             itemImage: require("../../FurnitureImages/couch_4.jpg"),
             ItemName: "Apples",
-            ItemPrice: 1200,
-            itemCategory: "Vegetables"
+            itemNewPrice: 100,
+            itemQuantity: 2,
+            itemCategory: "Couch"
         },
         {
             itemImage: require("../../FurnitureImages/couch_5.jpg"),
             ItemName: "Apples",
-            ItemPrice: 1200,
-            itemCategory: "Vegetables"
+            itemNewPrice: 100,
+            itemQuantity: 2,
+            itemCategory: "Couch"
         },
         {
             itemImage: require("../../FurnitureImages/couch_5.jpg"),
             ItemName: "Apples",
-            ItemPrice: 1200,
-            itemCategory: "Vegetables"
+            itemNewPrice: 100,
+            itemQuantity: 2,
+            itemCategory: "Couch"
         },
 
     ]
@@ -60,24 +66,24 @@ function Couch() {
                                 <div className="product">
                                     <img height="100px" src={value.itemImage} alt="" />
                                     <div className="description">
-                                        <span>{value.itemName}</span>
-                                        <h5>{value.ItemPrice}</h5>
+                                        <span class="itemName">{value.itemName}</span>
+
+                                        <div className="price">
+                                            <span className="newPrice">${value.itemNewPrice}<span class="cents">.00</span></span>
+                                            <button class="visit-button"><i class="fas fa-shopping-cart"></i></button>
+                                        </div>
                                         <div className="star">
                                             <i className="fa fa-star"></i>
                                             <i className="fa fa-star"></i>
                                             <i className="fa fa-star"></i>
                                             <i className="fa fa-star"></i>
-                                            <i className="fa fa-star"></i>
+                                            <i className="fa fa-star-half-o"></i>
                                         </div>
-                                        <div className="add-cart">
-                                            <i class="fa-solid fa-heart"></i>
-                                            <button class="visit-button">View Product</button>
-                                            <i class="far fa-shopping-cart"></i>
-                                            </div>
-                                        
                                     </div>
                                 </div>
                             </div>
+
+
 
                         )
                     })

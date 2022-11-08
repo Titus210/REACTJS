@@ -8,6 +8,7 @@ import Chairs from './DisplayItems/chairs'
 import Couch from './DisplayItems/couch'
 import Inter from './DisplayItems/inter'
 import SliderHome from './DisplayItems/Slider/Slideritems'
+import LandPage from './Landpage/landPage'
 
 
 
@@ -17,7 +18,7 @@ class FurnitureWholesaler extends Component {
         <>
             <CommonHeader/>
             <div className="categories">
-            {/* <SliderHome/> */}
+           <LandPage/>
             </div>
             <div className="new-products"></div>
             <div className="shop-items">

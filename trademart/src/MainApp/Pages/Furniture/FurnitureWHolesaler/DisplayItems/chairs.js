@@ -4,45 +4,45 @@ function Chairs() {
     const FlashData = [
         {
             itemImg: require("../../FurnitureImages/chair_5.jpg"),
-            itemName: "Apples",
-            itemShop: "The Green Grocery",
-            itemPrice: 1200,
-            itemCategory: "Vegetables"
+            itemName: "Tripoid Chair",
+            itemNewPrice: 100,
+            itemQuantity: 2,
+            itemCategory: "Chair"
         },
         {
             itemImg: require("../../FurnitureImages/chair_6.jpg"),
-            itemName: "Leather Couch",
-            itemShop: "Sofa Store",
-            itemPrice: 1200,
-            itemCategory: "Furniture"
+            itemName: "Leather Seat",
+            itemNewPrice: 100,
+            itemQuantity: 2,
+            itemCategory: "Chair"
         },
         {
             itemImg: require("../../FurnitureImages/chair_3.jpg"),
-            itemName: "Leather Couch",
-            itemShop: "Sofa Store",
-            itemPrice: 1200,
-            itemCategory: "Furniture"
+            itemName: "Woden Chair",
+            itemNewPrice: 100,
+            itemQuantity: 2,
+            itemCategory: "Chair"
         },
         {
             itemImg: require("../../FurnitureImages/chair_5.jpg"),
-            itemName: "Leather Couch",
-            itemShop: "Sofa Store",
-            itemPrice: 1200,
-            itemCategory: "Furniture"
+            itemName: "Leather Seat",
+            itemNewPrice: 100,
+            itemQuantity: 2,
+            itemCategory: "Chair"
         },
         {
             itemImg: require("../../FurnitureImages/chair_6.jpg"),
-            itemName: "Wall Lamp",
-            itemShop: "Decor Shop",
-            itemPrice: 12000,
-            itemCategory: "Interior"
+            itemName: "Leather Seat",
+            itemNewPrice: 100,
+            itemQuantity: 2,
+            itemCategory: "Chair"
         },
         {
             itemImg: require("../../FurnitureImages/chair_3.jpg"),
-            itemName: "Wall Lamp",
-  
-            itemPrice: 12000,
-            itemCategory: "Interior"
+            itemName: "Leather Seat",
+            itemNewPrice: 100,
+            itemQuantity: 2,
+            itemCategory: "Chair"
         },
 
     ]
@@ -61,20 +61,23 @@ function Chairs() {
                 {
                     FlashData.map((value, index) => {
                         return (
-
                             <div className="FlashCard">
                                 <div className="product">
                                     <img height="100px" src={value.itemImg} alt="" />
                                     <div className="description">
-                                        <span>{value.itemName}</span>
+                                        <span class="itemName">{value.ItemName}</span>
+
+                                        <div className="price">
+                                            <span className="newPrice">${value.itemNewPrice}<span class="cents">.00</span></span>
+                                            <button class="visit-button"><i class="fas fa-shopping-cart"></i></button>
+                                        </div>
                                         <div className="star">
                                             <i className="fa fa-star"></i>
                                             <i className="fa fa-star"></i>
                                             <i className="fa fa-star"></i>
                                             <i className="fa fa-star"></i>
-                                            <i className="fa fa-star"></i>
+                                            <i className="fa fa-star-half-o"></i>
                                         </div>
-                                        <div className="add-cart"><button class="visit-button">Add To Cart</button></div>
                                     </div>
                                 </div>
                             </div>
