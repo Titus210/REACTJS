@@ -1,0 +1,81 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    border-right: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+.icon .fas {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(0, 128, 0, 0.459);
+    color: white;
+    text-align: center;
+    padding: 12px;
+    border-radius: 50%;
+
+}
+
+.icon {
+    margin: 22px 0 4rem 0;
+}
+
+.icon h4 {
+    color: var(--white-color);
+}
+
+.content {
+    text-align: start;
+    margin: 0 auto;
+
+}
+
+.content> h3 {
+    color: green;
+    text-align: center;
+}
+
+.sidebar .content>div {
+    padding: 10px 7px;
+    position: relative;
+}
+
+.sidebar .content>div:hover,
+.sidebar .content>div:active {
+    background-color: rgba(0, 128, 0, 0.459);
+    border: none;
+    border-radius: 2px;
+}
+
+.sidebar .content>div h4,
+.logout h4 {
+    display: inline-flex;
+    padding: 0 0.7rem;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+.logout {
+    position: absolute;
+    ;
+    bottom: 0;
+    left: 2px;
+
+}
+
+
+
+/* ============================================*/
+/*              Media Query                     */
+/* ============================================*/
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+
+}
