@@ -1,0 +1,13 @@
+.sidebar {
+    width: max-content;
+}
+
+.items {
+    width: 100%;
+    height: 100vh;
+}
+
+.elements {
+    display: flex;
+    max-height: 100vh;
+ }

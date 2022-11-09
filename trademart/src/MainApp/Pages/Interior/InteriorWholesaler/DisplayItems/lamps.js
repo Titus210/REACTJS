@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "../../../../WholesalersMain/Common/categories.css"
 function Lamps() {
     const FlashData = [
@@ -46,7 +46,27 @@ function Lamps() {
         },
 
     ]
+
+    const [cart, setCart] = useState([]);
+// const handleClick =() =>{
+//     let isPresent = false;
+//     cart.forEach(product)=>{
+//         if(FlashData.id  === product.id){
+//             isPresent == true;
+//         }if(isPresent){
+//             return;
+//         }
+//         setCart({...cart, item})
+//     }
+
+// // }
+// const handleItem =() => {
+//     let size = 0;
+
+// }
+
     return (
+
 
         <section className="FlashSale">
             <div className="flashHeader">
@@ -67,7 +87,13 @@ function Lamps() {
 
                                         <div className="price">
                                             <span className="newPrice">${value.itemNewPrice}<span class="cents">.00</span></span>
-                                            <button class="visit-button"><i class="fas fa-shopping-cart"></i></button>
+                                            <button class="visit-button"
+                                                onClick={() => {
+                                                    cart.push(value)
+                                                    console.log(cart)
+                                                }}>
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </button>
                                         </div>
                                         <div className="star">
                                             <i className="fa fa-star"></i>

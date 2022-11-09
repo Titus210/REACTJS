@@ -1,6 +1,7 @@
 import React from 'react'
+import { useState } from 'react'
 import "../../../../WholesalersMain/Common/categories.css"
-function Walls() {
+function Walls(handleClick) {
     const FlashData = [
         {
             itemImage: require("../../InteriorImages/Full_House_1.jpg"),
@@ -46,7 +47,7 @@ function Walls() {
         },
 
     ]
-
+    const [cart, setCart] = useState([]);
 
 
     return (
@@ -59,10 +60,10 @@ function Walls() {
             <div className="FlashWrapper">
 
                 {
-                    FlashData.map((value, index) => {
+                    FlashData.map((value,index) => {
                         return (
 
-                            <div className="FlashCard">
+                            <div className="FlashCard" key= {index}>
                                 <div className="product">
                                     <img height="100px" src={value.itemImage} alt="" />
                                     <div className="description">
@@ -70,7 +71,13 @@ function Walls() {
 
                                         <div className="price">
                                             <span className="newPrice">${value.itemNewPrice}<span class="cents">.00</span></span>
-                                            <button class="visit-button"><i class="fas fa-shopping-cart"></i></button>
+                                            <button class="visit-button"
+                                                onClick={() => {
+                                                    cart.push(value)
+                                                    console.log(cart) 
+                                                }}>
+
+                                                <i class="fas fa-shopping-cart"></i></button>
                                         </div>
                                         <div className="star">
                                             <i className="fa fa-star"></i>
