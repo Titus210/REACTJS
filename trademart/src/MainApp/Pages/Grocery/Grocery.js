@@ -1,7 +1,8 @@
 import React from 'react'
 
+import { Link, Routes, Route } from "react-router-dom"
 import "../FlashSale/FlashSaleStyles/FlashSale.css";
-
+import GroceryWholesaler from "./GroceryWholesaler/GroceryWholesale"
 function FlashSale() {
   const FlashData = [
     {
@@ -9,42 +10,42 @@ function FlashSale() {
       FlashName: "Apples",
       FlashShop: "The Green Grocery",
       FlashPrice: 1200,
-      FlashCategory: "Vegetables"
+      FlashCategory: "Grocery"
     },
     {
-      flashImg: require("../Furniture/FurnitureImages/couch_1.jpg"),
-      FlashName: "Leather Couch",
-      FlashShop: "Sofa Store",
+      flashImg: require("../Grocery/GroceryImages/brocolli.jpg"),
+      FlashName: "Brocolli",
+      FlashShop: "Groceys Store",
       FlashPrice: 1200,
-      FlashCategory: "Furniture"
+      FlashCategory: "Grocery"
     },
     {
-      flashImg: require("../Furniture/FurnitureImages/couch_1.jpg"),
-      FlashName: "Leather Couch",
-      FlashShop: "Sofa Store",
+      flashImg: require("../Grocery/GroceryImages/product-4.png"),
+      FlashName: "Basket Combo",
+      FlashShop: "Green Basket",
       FlashPrice: 1200,
-      FlashCategory: "Furniture"
+      FlashCategory: "Grocery"
     },
     {
-      flashImg: require("../Furniture/FurnitureImages/couch_1.jpg"),
+      flashImg: require("../Grocery/GroceryImages/apicort.jpg"),
       FlashName: "Leather Couch",
-      FlashShop: "Sofa Store",
+      FlashShop: "VegeFruits  Store",
       FlashPrice: 1200,
-      FlashCategory: "Furniture"
+      FlashCategory: "Grocery"
     },
     {
-      flashImg: require("../Interior/InteriorImages/decor_2.jpg"),
-      FlashName: "Wall Lamp",
-      FlashShop: "Decor Shop",
+      flashImg: require("../Grocery/GroceryImages/beet_root.jpg"),
+      FlashName: "Beet Roots",
+      FlashShop: "Green Basket",
       FlashPrice: 12000,
-      FlashCategory: "Interior"
+      FlashCategory: "Grocery"
     },
     {
-      flashImg: require("../Interior/InteriorImages/decor_2.jpg"),
-      FlashName: "Wall Lamp",
-      FlashShop: "Decor Shop",
+      flashImg: require("../Grocery/GroceryImages/Item_4.jpg"),
+      FlashName: "Combo",
+      FlashShop: "Grocey Store",
       FlashPrice: 12000,
-      FlashCategory: "Interior"
+      FlashCategory: "Grocery"
     }
   ]
 
@@ -54,8 +55,7 @@ function FlashSale() {
 
     <section className="FlashSale">
       <div className="flashHeader">
-        <h3>Flash Sale </h3>
-        <h4>Offer Ends In</h4>
+        <h3>Vegetables and Fruits</h3>
       </div>
       <div className="FlashWrapper">
 
@@ -76,10 +76,15 @@ function FlashSale() {
                       <i className="fa fa-star"></i>
                       <i className="fa fa-star"></i>
                     </div>
-                    <button class="visit-button">Visit Supplier</button>
+                  
+                      <Link to="/grocery">
+                        <button class="visit-button">Visit Supplier</button>
+                      </Link>
                   </div>
                 </div>
+   
               </div>
+            
 
             )
           })
