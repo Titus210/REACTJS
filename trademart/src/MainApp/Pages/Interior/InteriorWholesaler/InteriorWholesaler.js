@@ -14,11 +14,11 @@ function InteriorWholesaler() {
   const [show, setCart] = useState(true);
   return (
     <>
-      <header>
-        <CommonHeader setCart={setCart}/>
-      </header>
-      { show ?
-      <div className="elements">
+
+        <CommonHeader />
+
+
+
         <div className="categories">
           <LandPage />
         </div>
@@ -30,11 +30,11 @@ function InteriorWholesaler() {
         <div className="delivery"></div>
         <div className="about-us"></div>
         <div className="footer">
-          <Footer />
+          <Footer/>
         </div>
-      </div>
-        : "cart"
-      }
+
+  
+
 
     </>
   )
