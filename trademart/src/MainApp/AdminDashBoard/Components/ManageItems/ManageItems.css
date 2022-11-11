@@ -1,0 +1,101 @@
+.manage-items {
+    background-color: #fff;
+    margin: 12px auto;
+}
+
+.search-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(37, 158, 191);
+
+
+}
+
+.search-header input {
+    padding: 4px;
+    text-align: center;
+    width: 50%;
+    margin: 12px;
+    border: 0;
+    padding: 8px;
+}
+
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 12px auto;
+}
+
+.products form label {
+    display: block;
+    width: 100%;
+}
+
+
+
+.products .descr,
+.products .img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+
+textarea {
+    width: 70%;
+}
+
+.stocks {
+    display: flex;
+
+    flex-direction: row;
+}
+
+.stocks input {
+    width: 70%;
+}
+
+.stocks p {
+    margin-bottom: 0;
+}
+
+.descr form {
+    width: 100%;
+}
+
+.descr input {
+    width: 70%;
+    align-items: center;
+    padding:5px;
+}
+
+@media screen and (max-width:768px) {
+
+    .search-header {
+        display: flex;
+        width: 40%;
+    }
+
+    .products {
+        flex-direction: column-reverse;
+    }
+
+    .products .descr {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .descr form {
+        width: 80%;
+    }
+
+    .descr input {
+        width: 100%;
+    }
+    .textarea{
+        width: 100%;
+    }
+}

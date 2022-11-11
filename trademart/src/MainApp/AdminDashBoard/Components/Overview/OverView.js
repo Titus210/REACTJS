@@ -34,8 +34,7 @@ function OverView() {
 
             <div className="section_2">
                 <div className="charts">
-                    <Charts/>
-                    This is a chart
+           
                 </div>
                 <div className="customers-orders">
                     {/* <div className="headings">
