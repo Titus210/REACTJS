@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
-import BarChart from './BarChart'
+import { BarChart, LineChart } from './BarChart'
 
 // import Data
 import { WeeklyData } from "./ChartData"
 
 // Styles
 import "./Charts.css"
-function Charts() {
+export function BarC() {
     const [Weeklydata, setUserData] = useState({
 
         labels: WeeklyData.map((data) => data.week),
@@ -14,6 +14,7 @@ function Charts() {
             label: "Sales Per Week",
             data: WeeklyData.map((data) => data.sales),
             backgroundColor: ["#483cf4", "blue", "green"],
+            borderWidth: 1,
             scales: {
                 xAxes: {
                    grid:{
@@ -21,6 +22,7 @@ function Charts() {
                     color: "white",
   
                 },
+                
                 // yAxes: {
                 //     grid:{
                 //             display:false,
@@ -28,6 +30,10 @@ function Charts() {
                 //     }
                 // }
             }
+            },
+            options: {
+                maintainAspectRatio: false,
+                responsive: true,
             }
         }]
     })
@@ -40,4 +46,62 @@ function Charts() {
     )
 }
 
-export default Charts
+export function LineC() {
+    const [Weeklydata, setUserData] = useState({
+
+        labels: WeeklyData.map((data) => data.week),
+        datasets: [{
+            label: "Sales Per Week",
+            data: WeeklyData.map((data) => data.sales),
+            backgroundColor: ["#483cf4", "blue", "green"],
+            borderWidth: 1,
+            scales: {
+                xAxes: {
+                   grid:{
+                    display:false,
+                    color: "white",
+  
+                },
+                
+                // yAxes: {
+                //     grid:{
+                //             display:false,
+                //         color: "white", 
+                //     }
+                // }
+            }
+            },
+            options: {
+                bezierCurve: false,
+                scaleShowValues: true,
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }],
+                    xAxes: [{
+                        ticks: {
+                            autoSkip: true,
+                            padding: 10,
+                            fontSize: 10
+                        }
+                    }]
+                },
+                responsive: true,
+                maintainAspectRatio: false,
+                title: {
+                    display: true,
+                    text: ''
+                },
+            },
+        }]
+    })
+    return (
+        <>
+            <div className="barData">
+                   <LineChart WeeklyData={Weeklydata} />
+            </div>
+        </>
+    )
+}

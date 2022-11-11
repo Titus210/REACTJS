@@ -1,5 +1,6 @@
 .main-container {
     background-color: #f6f4e8;
+
 }
 
 .main-container .navbar-header {
@@ -118,8 +119,33 @@
 .chart-displ .sales-chart,
 .statistics {
     width: 100%;
+
 }
 
+.recent-orders {
+    background-color: white;
+    margin: 12px 0;
+}
+
+.customer-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px
+}
+
+.customer-header h4 {
+    color: var(--primary-main)
+}
+
+.customer-header .number, .status, .customer-id {
+    text-align: center;
+}
+
+.customer-header p {
+    color: black;
+    opacity: 0.4;
+
+}
 
 /* ============================================*/
 /*              Media Query                     */
