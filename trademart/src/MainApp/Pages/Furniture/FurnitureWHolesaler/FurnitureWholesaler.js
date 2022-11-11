@@ -7,7 +7,6 @@ import Bed from './DisplayItems/bed'
 import Chairs from './DisplayItems/chairs'
 import Couch from './DisplayItems/couch'
 import Inter from './DisplayItems/inter'
-import SliderHome from './DisplayItems/Slider/Slideritems'
 import LandPage from './Landpage/landPage'
 
 
