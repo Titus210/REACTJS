@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 
 import "./FlashSaleStyles/FlashSale.css"
 
@@ -9,53 +10,60 @@ function FlashSale() {
       FlashName: "Apples",
       FlashShop: "The Green Grocery",
       FlashPrice: 1200,
-      FlashCategory: "Vegetables"
+      FlashCategory: "Vegetables",
+      flashPath: "/grocery"
     },
     {
       flashImg: require("../Furniture/FurnitureImages/couch_1.jpg"),
       FlashName: "Leather Couch",
       FlashShop: "Sofa Store",
       FlashPrice: 1200,
-      FlashCategory: "Furniture"
+      FlashCategory: "Furniture",
+      flashPath: "/furniture"
     },
     {
       flashImg: require("../Furniture/FurnitureImages/couch_1.jpg"),
       FlashName: "Leather Couch",
       FlashShop: "Sofa Store",
       FlashPrice: 1200,
-      FlashCategory: "Furniture"
+      FlashCategory: "Furniture",
+      flashPath: "/furniture"
     },
     {
       flashImg: require("../Furniture/FurnitureImages/couch_1.jpg"),
       FlashName: "Leather Couch",
       FlashShop: "Sofa Store",
       FlashPrice: 1200,
-      FlashCategory: "Furniture"
+      FlashCategory: "Furniture",
+      flashPath: "/furniture"
     },
     {
       flashImg: require("../Interior/InteriorImages/decor_2.jpg"),
       FlashName: "Wall Lamp",
       FlashShop: "Decor Shop",
       FlashPrice: 12000,
-      FlashCategory: "Interior"
+      FlashCategory: "Interior",
+      flashPath: "/interior"
     },
     {
       flashImg: require("../Interior/InteriorImages/decor_2.jpg"),
       FlashName: "Wall Lamp",
       FlashShop: "Decor Shop",
       FlashPrice: 12000,
-      FlashCategory: "Interior"
+      FlashCategory: "Interior",
+      flashPath: "/interior"
     }
   ]
 
 
 
   return (
-    
+
     <section className="FlashSale">
       <div className="flashHeader">
-        <h3>Flash Sale </h3>
-        <h4>Offer Ends In</h4>
+
+        <h4>Flash Offers</h4>
+        <h5>Offer ends in </h5>
       </div>
       <div className="FlashWrapper">
 
@@ -76,7 +84,9 @@ function FlashSale() {
                       <i className="fa fa-star"></i>
                       <i className="fa fa-star"></i>
                     </div>
-                    <button class = "visit-button">Visit Supplier</button>
+                    <Link to={value.flashPath}>
+                      <button class="visit-button">Visit Supplier</button>
+                    </Link>
                   </div>
                 </div>
               </div>
