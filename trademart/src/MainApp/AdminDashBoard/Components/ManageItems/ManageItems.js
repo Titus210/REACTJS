@@ -1,11 +1,14 @@
-import React from 'react'
+import React ,{ useState } from "react";
 
 import "./ManageItems.css"
 
 function ManageItems() {
+    const [file, setFile] = useState();
+
+  
     return (
 
-        <div className="manage-items">
+        <div className="items">
             <div className="search-header">
                 <input type="search" />
                 <i className="fa fa-search"></i>
@@ -38,8 +41,8 @@ function ManageItems() {
                 <div className="img">
                     <form action="">
                         <label htmlFor="">Product Image</label>
-                        <input type="file" />
-                        <button>Upload Image</button>
+                        <input type="file"  />
+                        <img src={file} alt="" />
                     </form>
 
                 </div>

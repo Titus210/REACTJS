@@ -1,4 +1,4 @@
-.manage-items {
+.mdd-items {
     background-color: #fff;
     margin: 12px auto;
 }
@@ -34,6 +34,11 @@
     width: 100%;
 }
 
+input,
+textarea {
+    border: 0.7px solid #000;
+    outline: none;
+}
 
 
 .products .descr,
@@ -56,6 +61,8 @@ textarea {
 
 .stocks input {
     width: 70%;
+
+
 }
 
 .stocks p {
@@ -69,14 +76,31 @@ textarea {
 .descr input {
     width: 70%;
     align-items: center;
-    padding:5px;
+    padding: 5px;
+}
+
+
+
+.img img {
+    width: 50%;
+    height: 50%;
+    margin: 12px;
+    padding: 12px;
+    background-color: #e8ead5;
+    border: none;
+}
+
+.img input {
+    border: none;
+    position: relative;
+    font-size: 12px;
 }
 
 @media screen and (max-width:768px) {
 
     .search-header {
         display: flex;
-        width: 40%;
+        width: 100%;
     }
 
     .products {
@@ -86,6 +110,7 @@ textarea {
     .products .descr {
         width: 100%;
         justify-content: center;
+        height: 50%;
     }
 
     .descr form {
@@ -95,7 +120,15 @@ textarea {
     .descr input {
         width: 100%;
     }
-    .textarea{
+
+    .textarea {
         width: 100%;
     }
+
+    .img {
+        display: block;
+        margin: 12px auto;
+        height: 50%;
+    }
+
 }
