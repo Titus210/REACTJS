@@ -10,14 +10,17 @@ import StockItems from './GroceryDisplay/StockItems'
 import Veges from './GroceryDisplay/Veges'
 
 
-
+const name = 'Gro'
+const span = "cery"
 
 class GroceryWholesaler extends Component {
+
+
   render() {
     return (
       <>
-        <CommonHeader />
-        <div className="categories">
+        <CommonHeader name = {name} span = {span}/>
+        <div className="landpage-categories">
           <LandPage/>
         </div>
         <div className="new-products"></div>

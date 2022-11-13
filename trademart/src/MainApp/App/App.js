@@ -23,6 +23,7 @@ export class App extends Component {
                 <Router>
 
                     <Routes>
+                    
                         <Route path="/" element={<Pages />} />
                         <Route path="/grocery" element={<GroceryWholesaler />}></Route>
                         <Route path="/interior" element={<InteriorWholesaler />}></Route>

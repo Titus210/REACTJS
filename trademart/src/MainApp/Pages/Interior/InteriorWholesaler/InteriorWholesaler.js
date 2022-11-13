@@ -7,15 +7,17 @@ import Walls from './DisplayItems/walls'
 import LandPage from './Landpage/landPage'
 
 
-
+const name = 'Home'
+const span = "Styles"
 
 function InteriorWholesaler() {
 
   const [show, setCart] = useState(true);
+
   return (
     <>
 
-        <CommonHeader />
+        <CommonHeader name = {name} span = {span}/>
 
 
 

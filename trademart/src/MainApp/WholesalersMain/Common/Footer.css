@@ -2,13 +2,13 @@
 
 .footer-wrapper {
     background-color: #24262b;
-    padding: 70px 0px;
+    padding:18px 0px 7px  0px;
+    height: auto;;
 }
 
 .footer {
 
-    max-width: 1170px;
-    margin: auto;
+    margin:0 auto;
 }
 
 .footer-class {
@@ -52,7 +52,7 @@
 }
 
 .footer-col ul li a {
-    color: orange;
+    color: rgb(0, 187, 255);
     text-transform: capitalize;
     text-decoration: none;
     font-size: 18px;
@@ -90,6 +90,17 @@
     color: #24262b;
     background-color: #ffffff;
 
+}
+
+
+.copyright{
+    color:#fff;
+    text-align: center;
+    position:relative;
+    bottom:10px;
+} hr {
+    color: #fff;
+    height: 10px;
 }
 
 /*Footer Responsiveness*/

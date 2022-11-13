@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { Link } from "react-router-dom"
 
 import "./Header.css"
-function CommonHeader({setCart, size}) {
+function CommonHeader({setCart, size, name , span}) {
 
  const [show,setShow] = useState(false);
 
@@ -13,7 +13,7 @@ function CommonHeader({setCart, size}) {
       <div className="header">
         <div className="logo">
           <Link to="/">
-          <h2>Funrni<span>Shop</span></h2>
+          <h2>{name}<span>{span}</span></h2>
           </Link>
         </div>
         <div className="search">

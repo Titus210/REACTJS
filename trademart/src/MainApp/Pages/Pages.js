@@ -13,6 +13,7 @@ import Header from "../Header/Header"
 
 
 import "./Pages.css"
+import Footer from '../WholesalersMain/Common/footer'
 function Pages() {
   return (
     <>
@@ -23,6 +24,7 @@ function Pages() {
     <Interior/>
     <Furniture/>
     <AboutUs/>
+    <Footer/>
 
 
     </>

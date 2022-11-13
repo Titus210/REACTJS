@@ -54,9 +54,15 @@ export class Footer extends Component {
 
                 </div>
               </div>
-
+      
             </div >
+         
           </div >
+          <div className="copyright">
+            <hr />
+            <p>    &copy Trademart 2022</p>
+        
+          </div>
         </footer >
       </>
 
