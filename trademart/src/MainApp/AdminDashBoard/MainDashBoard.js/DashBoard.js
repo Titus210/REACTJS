@@ -20,7 +20,7 @@ function DashBoard() {
                     <SideBar/>
                 </div>
                 <div className="items">
-                    <Header/>
+     
                     <Routes>
                         <Route path="/overview" element={<OverView />} />
 
