@@ -4,7 +4,7 @@ import "../SalesProfits/sales.css"
 
 
 const image = require("./face.jpg")
-function Header() {
+function Header({name,spanne}) {
     return (
         <>
 

@@ -72,21 +72,25 @@ function OverView() {
                         <div className="sales-items heading-sales">
                             <div className="number">Number</div>
                             <div className="customer-name">Customer Name</div>
-                            <div className="r">Revenue</div>
+                            <div className="rev-price">Revenue</div>
+                            <div className="r">Status</div>
                         </div>
                         <div className="sales-items">
                             <div className="number">100000</div>
                             <div className="customer-name">Titus Kiplagat</div>
-                            <div className="revenue">10,000</div>
+                            <div className="rev-price">10,000</div>
+                            <div className="revenue">pending</div>
                         </div>
                         <div className="sales-items">
                             <div className="number">100000</div>
                             <div className="customer-name">Titus Kiplagat</div>
-                            <div className="revenue">10,000</div>
+                            <div className="rev-price">10,000</div>
+                            <div className="revenue">delivered</div>
                         </div>
                         <div className="sales-items">
                             <div className="number">10,0000</div>
                             <div className="customer-name">Titus Kiplagat</div>
+                            <div className="rev-price">delivered</div>
                             <div className="revenue">10,000</div>
                         </div>
                     </div>
