@@ -21,15 +21,14 @@ export class App extends Component {
             <>
 
                 <Router>
-                    <DashBoard />
+                    {/* <DashBoard /> */}
                     <Routes>
-{/*                     
+                  
                         <Route path="/" element={<Pages />} />
                         <Route path="/grocery" element={<GroceryWholesaler />}></Route>
                         <Route path="/interior" element={<InteriorWholesaler />}></Route>
-                        <Route path="/furniture" element={<FurnitureWholesaler />}></Route> */}
+                        <Route path="/furniture" element={<FurnitureWholesaler />}></Route> 
                         
-
                     </Routes>
                 </Router>
             </>
