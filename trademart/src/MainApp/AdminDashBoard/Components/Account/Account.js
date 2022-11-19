@@ -4,13 +4,9 @@ import { Form, Button } from 'semantic-ui-react';
 import { yupResolver } from '@hookform/resolvers/yup'
 import * as Yup from 'yup'
 
-import "./Account.css"
+import "./Account.css"  
 
 function Account() {
-
-
-
-
     const formSchema = Yup.object().shape({
         Currentpassword: Yup.string()
             .required('Cant Be blank')
