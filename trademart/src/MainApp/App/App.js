@@ -21,7 +21,7 @@ export class App extends Component {
             <>
 
                 <Router>
-                    {/* <DashBoard /> */}
+                    <DashBoard />
                     <Routes>
                   
                         <Route path="/" element={<Pages />} />
