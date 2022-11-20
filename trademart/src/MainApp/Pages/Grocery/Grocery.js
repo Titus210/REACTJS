@@ -12,6 +12,7 @@ function FlashSale() {
       FlashPrice: 1200,
       FlashCategory: "Grocery"
     },
+    
     {
       flashImg: require("../Grocery/GroceryImages/brocolli.jpg"),
       FlashName: "Brocolli",
