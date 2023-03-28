@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { SpinnerDotted } from 'spinners-react';
 //style
 import "../../../Styles/MainPage/MainPage.css";
 
@@ -13,6 +14,7 @@ export class MainPage extends Component {
                             <img src={logo} alt="" />
                         </div>
                     </div>
+                    <SpinnerDotted thickness ="100" size ="40" speed = "100" secondaryColor='var(--main-pink)' color ="var(--main-white)" />
                 </div>
             </>
         )
