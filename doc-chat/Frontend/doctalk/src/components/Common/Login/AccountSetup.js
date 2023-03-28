@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from "react-router-dom";
 //style
 import "../../../Styles/AccountSetup/LoginSignUp.css"
 
@@ -14,10 +15,10 @@ export class LoginSignup extends Component {
                         </div>
                         <div className="login-buttons">
                             <div className="login">
-                                <p>Login</p>
+                                <Link to="/login"><p>Login</p></Link>
                             </div>
                             <div className="sign-up">
-                                <p>Sign up</p>
+                                <Link to="/signup"> <p>Sign up</p></Link>
                             </div>
                         </div>
                     </div>
