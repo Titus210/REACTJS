@@ -1,0 +1,17 @@
+:root {
+
+  /* primary colors */
+  --main-blue: #0081F7;
+  --main-gray: #E1E8F9;
+  --main-pink: #EE2A80;
+  --main-white: #ffffff;
+  --main-black: #111111;
+  /* Secondary Color */
+  --navy-blue: #172D64;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
