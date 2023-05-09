@@ -1,0 +1,126 @@
+.docslide-wrapper {
+    background-color: var(--main-blue);
+    height: 100vh;
+
+    position: relative;
+}
+
+.docslide-content {
+    background: url("../../../public/assets/images/doctor-2.jpg");
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-bottom-left-radius: 36px;
+    border-bottom-right-radius: 36px;
+}
+
+
+.docslide-content .header-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.docslide-content .header-text p {
+    color: var(--main-blue);
+    font-weight: 700;
+}
+
+.docslide-content .header-text p:hover {
+    border-bottom: 1px solid var(--main-blue);
+}
+
+.docslide-wrapper .docslide-text {
+    background-color: var(--main-pink);
+    height: 20%;
+    width: 70%;
+    padding: 10px;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    left: 15%;
+    z-index: 90;
+    bottom: 8%;
+    border-radius: 32px;
+}
+
+.docslide-wrapper .docslide-text p {
+    color: var(--main-white);
+}
+
+.docslide-wrapper .docslide-next {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+
+}
+
+.docslide-wrapper .docslide-next .next {
+    padding: 7px 10px;
+    border-radius: 50%;
+    background-color: var(--main-gray);
+    color: var(--main-blue);
+    text-align: center;
+}
+
+
+/* Desktop */
+
+@media screen and (min-width: 768px) {
+    .docslide-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .docslide-content {
+        background: url("../../../public/assets/images/doctor-2.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 70vh;
+        border-top-left-radius: 32px;
+        border-top-right-radius: 32px;
+
+        margin-top: 5%;
+        width: 32%;
+
+    }
+
+    .docslide-wrapper .docslide-text {
+        background-color: var(--main-pink);
+        height: 20%;
+        width: 20%;
+        padding: 10px;
+        text-align: center;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+        left: 0;
+        z-index: 90;
+        bottom: 8%;
+        border-radius: 32px;
+
+        font-size: 0.8rem;;
+    }
+
+    .docslide-next {
+        width: 20%;
+        position: relative;
+        bottom: 15%;
+        z-index: 90;
+    }
+
+}

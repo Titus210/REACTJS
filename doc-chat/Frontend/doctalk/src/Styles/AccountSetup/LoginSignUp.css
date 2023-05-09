@@ -1,0 +1,42 @@
+.login-wrapper {
+    background-color: var(--main-blue);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.doctalk-logo img {
+    height: 150px;
+}
+
+.login-buttons>div {
+    padding: 2px;
+
+}
+
+.login-buttons div p {
+    text-align: center;
+    font-weight: 700;
+
+    padding: 5px 24px;
+    border-radius: 32.45px;
+    color: var(--main-white);
+
+}
+
+.login-buttons .sign-up p {
+    background-color: var(--main-pink);
+}
+
+.login-buttons .login p{
+    border:1px solid var(--main-white)
+}
