@@ -1,0 +1,17 @@
+.mainpage-wrapper {
+    background-color: var(--main-blue);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainpage-container {
+
+}
+
+.doctalk-logo img {
+    height: 150px;
+}

@@ -8,13 +8,15 @@ import "./App.css";
 import DocSliders from '../pages/DocSliders/DocSliders';
 import AccountChoose from '../pages/LoginSignUp/AccountChoose';
 import Main from '../pages/MainPage/Main'
+import LoginPage from '../pages/LoginSignUp/Login/LoginPage';
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/docslide" element={<DocSliders/>} />
-        <Route path="/account" element={<AccountChoose/>} />
-        <Route path="/Main" element={<Main/>} />
+        <Route path="doctalk/docslide" element={<DocSliders/>} />
+        <Route path="doctalk/account" element={<AccountChoose/>} />
+        <Route path="/doctalk" element={<Main/>} />
+        <Route path="/login" element={<LoginPage/>} />
       </Routes>
     </BrowserRouter>
   );

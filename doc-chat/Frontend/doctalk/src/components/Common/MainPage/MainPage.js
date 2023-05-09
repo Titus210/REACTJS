@@ -3,7 +3,7 @@ import { SpinnerDotted } from 'spinners-react';
 //style
 import "../../../Styles/MainPage/MainPage.css";
 
-import logo from "../Login//Logo2.png"
+import logo from "../Login/Logo2.png"
 export class MainPage extends Component {
     render() {
         return (
