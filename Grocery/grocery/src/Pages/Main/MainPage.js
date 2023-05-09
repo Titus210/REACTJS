@@ -3,9 +3,13 @@ import React from 'react'
 function MainPage() {
   return (
     <>
-      <div className="h-100 w-100 flex justify-center align-center">
-        <h1 className="text-primary-green">Hello</h1>
+      <div className="container">
+      <div className="h-screen flex items-center justify-center">
+          <h1 className="text-center text-orange text-3xl font-bold">
+            Green<span className="text-primary-green">Mart</span>
+        </h1>
       </div>
+    </div>
     </>
   )
 }
