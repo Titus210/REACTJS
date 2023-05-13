@@ -2,13 +2,15 @@
 
 import './App.css';
 
-// Components impoer
+// Components impoert
 import MainPage from '../Pages/Main/MainPage';
+import AccountPrompt from '../Pages/Main/AccountPrompt';
 
 function App() {
   return (
     <div className="App">
-    <MainPage/>
+    {/* <MainPage/> */}
+    <AccountPrompt/>
     </div>
   );
 }
