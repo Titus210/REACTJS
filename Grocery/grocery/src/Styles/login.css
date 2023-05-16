@@ -1,4 +1,12 @@
-.login-bg{
-    background-image: url("../Assets/Images/collection-1.png");
-    
+.login-bg {
+    background-image: url("../Assets/Images/brocolli-1.png");
+
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #000;
+    margin: 0 10px;
+    outline: none;
 }
