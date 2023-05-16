@@ -7,7 +7,7 @@ function LoginPage() {
         <>
             <div className="w-screen">
                 <div className="  mx-auto h-screen w-screen  flex flex-col justify items-center  bg-[#214462] lg:flex-row lg:justify-evenly relative">
-                    <div className="hidden login-bg bg-cover bg-no-repeat bg-center lg:flex justify-center items-center bg-slate-500 h-1/2 w-2/5">
+                    <div className="hidden login-bg bg-cover bg-no-repeat bg-center  justify-center items-center bg-slate-500 h-1/2 w-2/5 lg:flex">
                     </div>
 
                     <div className=" flex justify-center items-center  w-full h-1/4 top-1 lg:absolute ">
