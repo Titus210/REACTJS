@@ -28,9 +28,11 @@ function Navbar() {
           <h1 className="text-2xl mt-4 lg:mt-0 lg:text-lg font-semibold text-gray-500 lg:ml-8">
             Contact
           </h1>
-          <div className="flex flex-col items-center ml-8 relative p-2 lg:hidden">
-            <VscAccount className="w-6 h-6" />
-            <p>Login</p>
+          <div className="flex flex-col items-center w-full relative p-2 lg:hidden">
+            <VscAccount className="w-6 h-6 mb-3"  />
+            <p className="p-2 text-center text-white border bg-orange-yellow  outline-0 rounded-xl w-9/12  hover:bg-black hover:text-orange-yellow md:w-11/12">
+              Login
+            </p>
           </div>
         </div>
         <div className="flex flex-row items-center">
