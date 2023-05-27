@@ -33,7 +33,7 @@ function Navbar() {
 
         {/* Menu bar */}
         <div
-          className={`absolute flex top-0 h-screen text-white bg-black w-80 lg:text-black lg:flex lg:flex-row flex-col items-center ml-8 lg:relative lg:h-auto lg:bg-inherit ${
+          className={`absolute flex top-0 -right-5 h-screen md:w-96 md:-right-20 text-white bg-black w-80 lg:text-black lg:flex lg:flex-row flex-col items-center ml-8 lg:relative lg:h-auto lg:bg-inherit ${
             menuOpen ? "" : "hidden lg:flex"
           }`}
         >
@@ -51,7 +51,7 @@ function Navbar() {
             Contact
           </h1>
           {/* Login */}
-          <div className="flex flex-col items-center w-full absolute bottom-4 p-2 mt-4 lg:hidden">
+          <div className="flex flex-col items-center md:w-9/12 w-full absolute bottom-4 p-2 mt-4 lg:hidden">
             <VscAccount className="hidden w-6 h-6 mb-3" />
             <p className="p-2 text-center text-white border bg-orange-yellow outline-0 rounded-xl w-9/12 hover:bg-black hover:text-orange-yellow md:w-11/12">
               Login

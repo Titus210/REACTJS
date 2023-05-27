@@ -1,0 +1,6 @@
+.hero-image {
+    background-image: url("../Assets/Images/collections-1.png");
+    background-size: cover;
+    background-position: center;
+    background-color: aqua;
+}
