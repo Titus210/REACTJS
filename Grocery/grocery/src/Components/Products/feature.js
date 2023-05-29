@@ -14,7 +14,7 @@ function truncateDescription(description) {
   return description;
 }
 
-function Trending() {
+function Feature() {
   const [visibleItems, setVisibleItems] = useState(6);
   const totalItems = fruits.length;
 
@@ -30,6 +30,11 @@ function Trending() {
   return (
     <>    
       <h1 className="text-center text-bold text-3xl">Trending Products</h1>
+      <div className="flex items-center mx-auto md:mx-12">
+        <p className="text-lg rounded-full border border-slate-600 px-3">Fruits</p>
+        <p className="text-lg ml-5 md:ml-8">vegetables</p>
+        <p className="text-lg ml-5 md:ml-8">salads</p>
+      </div>
       <div className="flex flex-wrap gap-1">
         {fruits.slice(0, visibleItems).map((fruit) => (
           <div
@@ -73,4 +78,4 @@ function Trending() {
   );
 }
 
-export default Trending;
+export default Feature

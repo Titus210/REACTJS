@@ -3,6 +3,7 @@ import Navbar from '../../Components/Common/navbar'
 import Hero from '../../Components/Hero/hero'
 import QuickServices from '../../Components/Common/quickServices'
 import Trending from '../../Components/Products/trending'
+import Feature from '../../Components/Products/feature'
 
 function Landing() {
   return (
@@ -12,6 +13,7 @@ function Landing() {
         <Hero/>
         <QuickServices/>
         <Trending/>
+        <Feature/>
    </div>
     </>
   )
