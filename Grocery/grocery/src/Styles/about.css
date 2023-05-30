@@ -1,0 +1,6 @@
+.farmer-image {
+  background-image: url("../Assets/Images/greengrocery.png");
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
