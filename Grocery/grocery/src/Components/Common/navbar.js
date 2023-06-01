@@ -22,7 +22,7 @@ function Navbar() {
 
   return (
     <>
-      <div className="flex flex-row justify-between items-center w-full h-16 relative">
+      <div className="flex flex-row justify-between items-center w-full h-16 relative mx-auto">
         <div className="flex flex-row items-center">
           <div className="flex flex-row items-center">
             <h1 className="text-center text-orange text-2xl font-bold">

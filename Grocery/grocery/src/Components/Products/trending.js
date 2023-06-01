@@ -33,7 +33,7 @@ function Trending() {
       <div className="flex flex-wrap gap-1">
         {fruits.slice(0, visibleItems).map((fruit) => (
           <div
-            className="mx-auto fruit-card flex flex-col items-stretch bg-slate-300 shadow-md rounded-lg p-4 m-2 w-5/6 md:w-2/6 lg:w-3/12"
+            className="mx-auto fruit-card flex flex-col items-stretch bg-slate-300 shadow-md rounded-lg  m-2 w-5/6 md:w-2/6 lg:w-3/12"
             key={fruit.id}
           >
             <div className="product-image h-40">

@@ -11,15 +11,27 @@ import Footer from "../../Components/Common/footer";
 function Landing() {
   return (
     <>
-      <div className=" flex flex-col bg-slate-500 md:h-max ">
+      <div className="flex flex-col md:h-max">
         <Navbar />
         <Hero />
-        <QuickServices />
-        <Trending />
-        <Feature />
-        <About />
-        <Newletter/>
-        <Footer/>
+        <div className="mt-4"> 
+          <QuickServices />
+        </div>
+        <div className="mt-4"> 
+          <Trending />
+        </div>
+        <div className="mt-4"> 
+          <Feature />
+        </div>
+        <div className="mt-4"> 
+          <About />
+        </div>
+        <div className="mt-4"> 
+          <Newletter />
+        </div>
+        <div className="mt-4"> 
+          <Footer />
+        </div>
       </div>
     </>
   );
