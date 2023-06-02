@@ -11,7 +11,7 @@ import Footer from "../../Components/Common/footer";
 function Landing() {
   return (
     <>
-      <div className="flex flex-col md:h-max">
+      <div className="flex flex-col md:h-max w-full md:w-11/12 mx-auto">
         <Navbar />
         <Hero />
         <div className="mt-4"> 
