@@ -5,7 +5,7 @@ import "../../Styles/login.css";
 function LoginPage() {
   return (
     <>
-      <div className="w-screen">
+      <div className="w-screen md:w-11/12">
         <div className="  mx-auto h-screen w-screen  flex flex-col justify items-center  bg-[#214462] lg:flex-row lg:justify-evenly relative">
           <div className="hidden login-bg bg-cover bg-no-repeat bg-center  justify-center items-center bg-slate-500 h-1/2 w-2/5 lg:flex"></div>
 
