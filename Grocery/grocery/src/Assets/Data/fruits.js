@@ -49,16 +49,20 @@ const fruits = [
     availability: 35,
     stars: 4,
   },
+
+
   {
     id: 6,
     name: "Cherry",
     price: 4.99,
-    image: require("../Images/cherry.png"),
+    image:
+     require("../Images/cherry.png"),
     description:
       "Our strawberries are sweet and juicy, and perfect for desserts or snacking.",
     availability: 10,
     stars: 5,
   },
+  
 ];
 
 export default fruits;
