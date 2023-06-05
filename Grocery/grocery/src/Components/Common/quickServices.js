@@ -7,7 +7,7 @@ import {BiSupport} from "react-icons/bi";
 function QuickServices() {
   return (
     <>
-      <div className="flex justify-evenly items-center md:w-full ">
+      <div className="flex justify-evenly items-center md:w-full mx-auto ">
         <div className="flex flex-col justify-center items-center">
           <p className="p-5 bg-slate-400 rounded-full md:p-7">
             <FaTruck className="h-6 w-6 md:h-9 md:w-9" />
