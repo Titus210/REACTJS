@@ -33,7 +33,7 @@ function Navbar() {
 
         {/* Menu bar */}
         <div
-          className={`absolute flex top-0 -right-5 h-screen md:w-96 md:-right-20 text-white bg-black w-80 lg:text-black lg:flex lg:flex-row flex-col items-center ml-8 lg:relative lg:h-auto lg:bg-inherit ${
+          className={`absolute flex top-0 -right-5 h-screen w-screen md:w-11/12 md:-right-20 text-white bg-black  lg:text-black lg:flex lg:flex-row flex-col items-center ml-8 lg:relative lg:h-auto lg:bg-inherit ${
             menuOpen ? "" : "hidden lg:flex"
           }`}
         >
