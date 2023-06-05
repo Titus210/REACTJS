@@ -14,22 +14,24 @@ function Landing() {
       <div className="flex flex-col md:h-max w-full md:w-11/12 mx-auto">
         <Navbar />
         <Hero />
-        <div className="mt-4"> 
+        <div className="mt-4">
           <QuickServices />
         </div>
-        <div className="mt-4"> 
+        <div className="mt-4">
           <Trending />
         </div>
-        <div className="mt-4"> 
+        <div className="mt-4">
           <Feature />
         </div>
-        <div className="mt-4"> 
+        <div className="mt-4">
           <About />
         </div>
-        <div className="mt-4"> 
+      </div>
+      <div className="flex flex-col w-12">
+        <div className="mt-4">
           <Newletter />
         </div>
-        <div className="mt-4"> 
+        <div className="mt-4">
           <Footer />
         </div>
       </div>
