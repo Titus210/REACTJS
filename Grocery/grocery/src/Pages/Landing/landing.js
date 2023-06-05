@@ -7,6 +7,7 @@ import Feature from "../../Components/Products/feature";
 import About from "../../Components/About/about";
 import Newletter from "../../Components/Newsletter/newletter";
 import Footer from "../../Components/Common/footer";
+import Category from "../../Components/Products/Category/category";
 
 function Landing() {
   return (
@@ -16,6 +17,9 @@ function Landing() {
         <Hero />
         <div className="mt-4">
           <QuickServices />
+        </div>
+        <div className="mt-4">
+          <Category />
         </div>
         <div className="mt-4">
           <Trending />
