@@ -30,7 +30,7 @@ function Trending() {
   return (
     <>
       <h1 className="text-center text-bold text-3xl">Trending Products</h1>
-      <div className="flex flex-wrap  bg-slate-300 gap-y-1 md:gap-x-1 lg:gap-x-6 ">
+      <div className="flex flex-wrap py-4 bg-slate-300 gap-y-1 md:gap-x-1 lg:gap-x-6 ">
         {fruits.slice(0, visibleItems).map((fruit) => (
           <div
             className=" fruit-card flex flex-col   bg-slate-200 shadow-lg   rounded-lg  m-2 w-5/12 md:w-1/4 lg:w-2/12  ml-4 lg:mx-0 lg:ml-3"
