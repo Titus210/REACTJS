@@ -20,5 +20,5 @@ export const Greet = (props: GreetProps) => {
             </h2>
         </div>
     )
-}
+} 
 
