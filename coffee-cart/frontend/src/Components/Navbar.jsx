@@ -54,7 +54,7 @@ const Navbar = () => {
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="35"
-                        height="35"
+                        height="35w"
                         fill="currentColor"
                         class="bi bi-basket-fill"
                         viewBox="0 0 16 16"
