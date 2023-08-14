@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;1,6..12,700&family=Outfit:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+
+header {
+    background-color: brown;
+
+
+
+}
+
+header .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: column;
+}
+
+.menu {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    list-style-type: none;
+    margin-left: 2rem;
+
+
+}
+
+.cart-wrapper {}
+
+
+.bag-quantiy {
+    padding: 1rem;
+    position: relative;
+}
+
+.bag-quantiy span {
+    position: absolute;
+    top: 0;
+    padding: 0.2rem 0.4rem;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+
+.item-count {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
+}
+
+/* NOT FOUND */
+.not-found {
+    background-color: #FFF;
+    height: 90vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
