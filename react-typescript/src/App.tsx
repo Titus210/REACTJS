@@ -42,7 +42,7 @@ function App() {
       <Heading>This is a placeholder text </Heading>
 
       <Oscar>
-        <Heading></Heading>
+        <Heading>Oscar goes to leornado Dipratio</Heading>
       </Oscar>
     </div>
   );
