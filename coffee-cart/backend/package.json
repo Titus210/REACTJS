@@ -1,0 +1,32 @@
+{
+  "name": "coffee-cafe",
+  "version": "1.0.0",
+  "description": "This is backend to handle services from frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Titus210/REACTJS.git#main"
+  },
+  "keywords": [
+    "Coffee",
+    "Shop",
+    "using",
+    "Router",
+    "and",
+    "redux"
+  ],
+  "author": "Titus Kiplagat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Titus210/REACTJS/issues"
+  },
+  "homepage": "https://github.com/Titus210/REACTJS/tree/main#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
