@@ -1,6 +1,9 @@
 const express = require("express");
 const cors = require("cors");
 
+// import elements 
+const products = require("./products");
+
 const app = express();
 
 app.use(express.json())
@@ -11,7 +14,7 @@ app.get('/', (req, res) => {
 
 
 app.get('/products', (req, res) => {
-    res.send(["Mocha", "Latte"])
+    res.send(products)
 })
 
 
