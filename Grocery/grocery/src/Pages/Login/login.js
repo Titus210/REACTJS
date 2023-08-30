@@ -139,7 +139,7 @@ function LoginPage() {
                 <p className="text-xl">
                   Continue as{" "}
                   <span className="text-primary-blue underline">
-                    <Link to="/" className="text-primary-blue underline">guest</Link>
+                    <Link to="/landing" className="text-primary-blue underline">guest</Link>
                   </span>
                 </p>
               </div>
@@ -148,7 +148,7 @@ function LoginPage() {
               <p className="text-xl">
                 Continue as{" "}
                 <span className="text-primary-blue underline">
-                  <Link to="/" className="text-primary-blue underline">guest</Link>
+                  <Link to="/landing" className="text-primary-blue underline">guest</Link>
                 </span>
               </p>
             </div>
