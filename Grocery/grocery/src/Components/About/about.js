@@ -17,9 +17,7 @@ function About() {
             </p>
           </div>
           <div className="display-icons">
-            <div className="p"></div>
-            <div className="p"></div>
-            <div className="p"></div>
+       
           </div>
         </div>
       </div>
