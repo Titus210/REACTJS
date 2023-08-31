@@ -46,7 +46,7 @@ function SignUp() {
             history.push("/")
         } catch {
             console.error("Firebase Authentication Error:", error.message);
-            setError("Failed to create account");
+            setError("Failed to create account, continue as guest");
         }
         setLoading(false);
         setClicked(false);
@@ -141,8 +141,9 @@ function SignUp() {
                                     type='button'
                                     disabled={loading}
                                 >
-                                    Create Account
+                                    Create account
                                 </p>
+
                             </div>
 
                             <div className="flex flex-col justify-center items-center w-full mt-2">
@@ -157,7 +158,6 @@ function SignUp() {
                                     <FaApple className="w-6 h-6 t text-gray-500 cursor-pointer hover:scale-125" />
                                 </div>
                             </div>
-
                         </form>
                     </div>
                 </div>
