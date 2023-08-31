@@ -1,6 +1,23 @@
 .hero-image {
-    background-image: url("../Assets/Images/collections-1.png");
+    background-image: url("../Assets/Images/cherry-2.png");
     background-size: cover;
     background-position: center;
-    
+    background-repeat: no-repeat;
+
+    object-fit: cover;
+    height: 400px;
+}
+
+@media screen and (min-width:768px) {
+    .hero-image {
+        height: 800px;
+    }
+}
+
+@media screen and (min-width:1020px) {
+    .hero-image {
+        height: 600px;
+        background-size: contain;
+       
+    }
 }

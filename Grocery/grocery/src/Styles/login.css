@@ -6,7 +6,25 @@
 .line {
     flex-grow: 1;
     height: 1px;
-    background-color: #000;
+    background-color: white;
     margin: 0 10px;
     outline: none;
 }
+
+/* Add this to your CSS styles */
+.clicked {
+    animation: clickAnimation 0.2s ease;
+  }
+  
+  @keyframes clickAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(5px); /* Move down */
+    }
+    100% {
+      transform: translateY(0); /* Move up to the original position */
+    }
+  }
+  
