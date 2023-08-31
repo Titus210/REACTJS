@@ -1,0 +1,49 @@
+.bg-styles {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.account-prompt {
+    background-image: url('../../Assets/Images/cherry.png');
+
+}
+
+.main-page {
+    background-image: url('../../Assets/Images/lettuce.png');
+    /* animation: changeBackground 8s linear infinite; */
+}
+
+.blur-background {
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent black overlay */
+    padding: 10px; /* Add padding to create space between the text and the overlay */
+    backdrop-filter: blur(1px); /* Apply the blur effect to the background */
+    border-radius: 10px; /* Add some rounded corners to the overlay */
+    overflow: hidden; /* Hide any overflow from the overlay */
+  }
+
+/* Define the animation */
+@keyframes changeBackground {
+    0% {
+        background-image: url('../../Assets/Images/collections-1.png');
+    }
+
+    30% {
+        background-image: url('../../Assets/Images/chilly.png');
+        /* Change to the new image URL */
+    }
+
+    50% {
+        background-image: url('../../Assets/Images/corn-1.png');
+    }
+
+    70% {
+        background-image: url('../../Assets/Images/cucumber.png');
+    }
+
+    100% {
+        background-image: url('../../Assets/Images/tommatoes.png');
+    }
+
+
+}
