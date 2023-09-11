@@ -5,17 +5,20 @@ import "../../Styles/hero.css";
 function Hero() {
   return (
     <>
-      <div className="md:h-max w-full mx-auto">
-        <div className="flex flex-col justify-between items-center h-2/3 lg:flex-row-reverse">
-          <div className="hero-image w-full h-96 rounded-3xl  lg:w-7/12"> </div>
-          <div className="flex items-center justify-center flex-col md:justify-evenly  h-2/4 md:w-9/12 lg:w-5/12">
+      <div className="w-full mx-auto bg-gray-dark  flex items-center py-8">
+        <div className="flex flex-col  justify-between items-center mx-auto w-10/12 md:flex-row-reverse">
+          <div className="hero-image w-full  rounded-3xl  md:w-7/12"> </div>
+          <div className="flex  flex-col items-center  px-6  lg:w-5/12 ">
             <div className="">
-              <h1 className="text-3xl md:text-5xl text-center lg:text-start">
-                The Fresh <span className="text-primary-green"> Organic </span> products
-              </h1>
+              <p className="text-4xl text-center  md:text-start text-green font-bold md:text-6xl ">
+                Fresh <span className="text-slate-400"> Organic </span> products
+              </p>
             </div>
-            <div className=" flex mt-5 md:mt-0">
-              <p className="p-2 text-center md:text-3xl  text-white border bg-orange-yellow outline-0 rounded-xl hover:bg-black hover:text-orange-yellow ">
+            {/* <div className="flex flex-col my-4">
+              <p className="text-white text-2xl">We give the best grocery products</p>
+            </div> */}
+            <div className="flex items-center mt-5 w-full justify-center md:justify-start">
+              <p className="p-2 text-center text- border-0 text-xl font-bold bg-orange-yellow outline-0 rounded-lg  hover:bg-black hover:text-orange-yellow w-8/12 md:w-7/12">
                 View Shop
               </p>
             </div>
