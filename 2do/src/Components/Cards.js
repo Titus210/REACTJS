@@ -17,6 +17,9 @@ export default function Cards({ data, setData }) {
                     <Card.Text>
                         {goal.body}
                     </Card.Text>
+                    <Card.Text>
+                        {goal.date.getDate() + '-' + (goal.date.getMonth() + 1) + '-' + goal.date.getFullYear()}
+                    </Card.Text>
                     <EditCards data={data} setData={setData} goal={goal} />
                 </Card.Body>
             </Card>
