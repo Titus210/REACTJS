@@ -2,19 +2,13 @@ import { useState, React, useEffect } from "react";
 import Cards from "./Cards";
 import AddCard from "./AddCard";
 
-
-
-
 export default function Home() {
-
     const [data, setData] = useState(null);
-
-
 
     return (
         <>
             <img
-                alt="backgroung"
+                alt="background"
                 style={{
                     height: "100vh",
                     width: "100vw",
@@ -29,7 +23,7 @@ export default function Home() {
                     left: "0",
                     width: "100vw",
                     height: '100vh',
-                    backgroundColor: "rgba(0,0,0,0.3",
+                    backgroundColor: "rgba(0,0,0,0.3)", // Added missing closing parenthesis here
                     backdropFilter: "blur(3px)",
                 }}
             >
@@ -38,17 +32,16 @@ export default function Home() {
                         <h3 className="display-1 text-white fst-italic">
                             Manage yourself & set Goals
                         </h3>
-                       <AddCard data={data} setData={setData}/>
+                        <AddCard data={data} setData={setData} />
                     </div>
                     <div className="col-md-6">
-                        {
-                            data ? <Cards data={data} setData={setData} />
-                                :
-                                <h3 className="display-3 fw-bold text-white">
-
-                                    Start Creating Goals
-                                </h3>
-                        }
+                        {data ? (
+                            <Cards data={data} setData={setData} />
+                        ) : (
+                            <h3 className="display-3 fw-bold text-white">
+                                Start Creating Goals
+                            </h3>
+                        )}
                     </div>
                 </div>
             </div>
