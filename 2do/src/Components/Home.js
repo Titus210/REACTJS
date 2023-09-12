@@ -1,33 +1,7 @@
 import { useState, React, useEffect } from "react";
 import Cards from "./Cards";
+import AddCard from "./AddCard";
 
-
-const DUMMY_DATA = [
-    {
-        key: 1,
-        title: 'First Tittle',
-        body: "First Body",
-        date: new Date(),
-    },
-    {
-        key: 2,
-        title: 'Second Tittle',
-        body: "Second Body",
-        date: new Date(),
-    },
-    {
-        key: 3,
-        title: 'Third Tittle',
-        body: "Third Body",
-        date: new Date(),
-    },
-    {
-        key: 4,
-        title: 'Fouth Tittle',
-        body: "Fouth Body",
-        date: new Date(),
-    },
-]
 
 
 
@@ -35,9 +9,6 @@ export default function Home() {
 
     const [data, setData] = useState(null);
 
-    useEffect(() => {
-        setData(DUMMY_DATA);
-    }, [])
 
 
     return (
@@ -67,7 +38,7 @@ export default function Home() {
                         <h3 className="display-1 text-white fst-italic">
                             Manage yourself & set Goals
                         </h3>
-                        <button className="btn btn-primary btn-lg"> Add Goals </button>
+                       <AddCard data={data} setData={setData}/>
                     </div>
                     <div className="col-md-6">
                         {
