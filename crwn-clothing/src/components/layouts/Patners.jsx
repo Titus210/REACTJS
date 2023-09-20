@@ -13,9 +13,11 @@ const Patners = ({ parner_data }) => {
         <div className="card-wrapper">
           {/* card - 1 */}
           <div className="rounded card">
+            {/* partner image */}
             <div className="image">
               <img src="" alt="nike" />
             </div>
+            {/* partner content */}
             <div className="content">
               <p className="bold">Nike</p>
             </div>
@@ -23,9 +25,12 @@ const Patners = ({ parner_data }) => {
 
           {/* card - 1 */}
           <div className="rounded card">
+            {/* partner image */}
             <div className="image">
               <img src="" alt="nike" />
             </div>
+
+            {/* partner content */}
             <div className="content">
               <p className="bold">Nike</p>
             </div>
@@ -33,9 +38,11 @@ const Patners = ({ parner_data }) => {
 
           {/* card - 1 */}
           <div className="rounded card">
+            {/* partner image */}
             <div className="image">
               <img src="" alt="nike" />
             </div>
+            {/* partner content */}
             <div className="content">
               <p className="bold">Nike</p>
             </div>
@@ -43,9 +50,11 @@ const Patners = ({ parner_data }) => {
 
           {/* card - 1 */}
           <div className="rounded card">
+            {/* partner image */}
             <div className="image">
               <img src="" alt="nike" />
             </div>
+            {/* partner content */}
             <div className="content">
               <p className="bold">Nike</p>
             </div>
