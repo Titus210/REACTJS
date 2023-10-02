@@ -1,0 +1,10 @@
+.recommended-btns {
+    display: flex;
+    margin: 1.3rem;
+    margin-left: 20rem;
+}
+
+.recommended-title {
+    margin: 1.1rem 0;
+    margin-left: 20rem;
+}
