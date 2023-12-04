@@ -1,0 +1,27 @@
+/* commmon headers for all sections */
+
+.section-header {
+    text-align: center;
+    font-weight: 600;
+    color: #333;
+}
+
+.text-heading {
+    font-size: 1.4rem;
+}
+
+.text {
+    font-size: 1rem;
+}
+/* background styles */
+.bg-property {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
