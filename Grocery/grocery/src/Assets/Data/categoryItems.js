@@ -30,3 +30,4 @@ const categoryItems = [
 ];
 
 export default categoryItems;
+

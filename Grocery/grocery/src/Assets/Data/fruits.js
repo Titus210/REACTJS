@@ -39,29 +39,7 @@ const fruits = [
     availability: 15,
     stars: 5,
   },
-  {
-    id: 5,
-    name: "Grapes",
-    price: 2.99,
-    image: require("../Images/grapes.png"),
-    description:
-      "Our grapes are plump and juicy, and perfect for snacking or adding to salads.",
-    availability: 35,
-    stars: 4,
-  },
 
-
-  {
-    id: 6,
-    name: "Cherry",
-    price: 4.99,
-    image:
-     require("../Images/cherry.png"),
-    description:
-      "Our strawberries are sweet and juicy, and perfect for desserts or snacking.",
-    availability: 10,
-    stars: 5,
-  },
   
 ];
 

@@ -141,7 +141,7 @@ function LoginPage() {
             </form>
 
             {/* Continue as guest (mobile) */}
-            <div className="absolute bottom-12 flex w-full justify-center mb-4 md:hidden">
+            <div className=" bottom-12 flex w-full justify-center mb-4 md:hidden">
               <p className="text-xl text-white">
                 Continue as{" "}
                 <span className="text-green underline">

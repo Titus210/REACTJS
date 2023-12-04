@@ -2,6 +2,26 @@ import React from "react";
 import "../../Styles/about.css";
 
 function About() {
+  /**
+ * About Component:
+ * 
+ * The About component provides information about the business.
+ * It includes a brief description and an option to read more.
+ * 
+ * Key Features:
+ * - Displays a heading "About Us."
+ * - Shows an image of a farmer.
+ * - Provides a description of the business.
+ * - Offers a "Read More" button for additional information.
+ *
+ * Suggestions:
+ * - Customize the "Read More" button functionality.
+ * - Enhance the display-icons section with relevant content.
+ * - Style and format text and components as needed.
+ *
+ * This component serves as the about section of the website.
+ */
+
   return (
     <>
       {/* About Us Section */}

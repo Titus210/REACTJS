@@ -23,12 +23,12 @@ const Shop = () => {
     return (
         <>
             <Navbar />
-            <Hero />
-            <div className="w-11/12 flex">
-                <div className="sidebar hidden w-3/12 h-[800px] bg-blue-400 md:block">
+            <div className="flex w-full">
+                <div className="sidebar hidden w-3/12  bg-blue-400 md:block">
                     <Sidebar />
                 </div>
-                <div className="items md:w-9/12">
+                <div className="items w-full bg-slate-900 md:mx-auto">
+                    <Hero />
                     <Trending />
                     <Trending />
                 </div>

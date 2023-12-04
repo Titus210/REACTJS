@@ -1,7 +1,7 @@
 import { AccountIcon, EmailIcon, FacebookIcon, HeartIcons, LinkedinIcon, PhoneIcon, ShoppingCartIcon, TwitterIcon } from "../../../Assets/icons/Icons";
 
 const Navbar = () => {
-    
+
     /**
  * Navbar Component:
  * 
@@ -38,7 +38,7 @@ const Navbar = () => {
                             <p className="text-md">
                                 greenmart@gmail.com
                             </p>
-                        </div>x``
+                        </div>
                         <div className="phone flex gap-2 items-center">
                             <p className="text-xl text-green">
                                 <PhoneIcon />

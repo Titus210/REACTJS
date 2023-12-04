@@ -2,6 +2,13 @@
 
 The `LoginPage` component provides a user-friendly login interface that integrates with Firebase Authentication. Users can log in using their email and password, and have the option to log in via social media platforms like Facebook, Google, and Apple.
 
+
+## Screenshots
+### Desktop view
+![Desktop](./images/desktop.png)
+### Mobile view
+![Mobile](./images/mobile.png)
+
 ## Features
 
 ### User Authentication:
