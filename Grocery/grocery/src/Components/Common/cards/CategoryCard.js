@@ -1,3 +1,5 @@
+import PrimaryButton from "../button/PrimaryButton";
+
 const CategoryCard = ({ bgImage, bgColor, smallText, largeText }) => {
 
     const cardStyle = {
@@ -11,12 +13,19 @@ const CategoryCard = ({ bgImage, bgColor, smallText, largeText }) => {
 
     return (
         <>
-            <section className="category-card h-48 shadow-lg flex justify-center items-center" style={cardStyle} >
-                <div className="category-content text-center  px-4">
-                    <p className="small-text">{smallText}</p>
-                    <p className="large-text text-2xl font-bold">{largeText}</p>
+            <article className="category-card h-48 py-2 px-3 shadow-xl rounded-lg border border-gray-300 flex justify-center items-center">
+                <div className="grid grid-cols-2 gap-2">
+                    <div className="category-text flex flex-col gap-2">
+                        <p className="text-md font-bold">We have 100% organic</p>
+                        <PrimaryButton btnText='see all'/>
+                    </div>
+                    <div className="category-image">
+                    <div className="h-full" style={cardStyle} >
+                        
+                        </div>
+                    </div>
                 </div>
-            </section>
+            </article>
         </>
     );
 }
