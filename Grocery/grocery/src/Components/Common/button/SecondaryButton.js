@@ -1,8 +1,10 @@
-const SecondaryButton = ({btnText}) => {
+const SecondaryButton = ({ btnText }) => {
     return (
-        <button className="bg-orange-yellow  text-white text-center py-2 px-4 mt-4 rounded-md w-10/12 hover:bg-blue-600">
-            {btnText}
-        </button>
+        <div className="button">
+            <button className="bg-accent-yellow  text-white text-center py-2 px-4 rounded-md w-10/12 ">
+                {btnText}
+            </button>
+        </div>
     );
 }
 
