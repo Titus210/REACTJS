@@ -16,7 +16,7 @@ const Homepage = () => {
 
             {/* Hero */}
             <section className="hero">
-                <Hero bgSize="550px"/>
+                <Hero/>
             </section>
             {/* Category */}
             
