@@ -6,21 +6,21 @@ const categoryData = [
         bgImage: require('../../../Assets/Images/canned-1.png'),
         smallText: '100% Natural organic Fruits',
         bigText: 'FRESH FRUITS',
-        bgColor: '#2ff242'
+        bgColor: '#'
     },
     {
         id: 2,
         bgImage: require('../../../Assets/Images/cherry-2.png'),
         smallText: '100% Natural organic Fruits',
         bigText: 'FRESH FRUITS',
-        bgColor: '#f3f'
+        bgColor: '#'
     },
     {
         id: 3,
         bgImage: require('../../../Assets/Images/corn-1.png'),
         smallText: '100% Natural organic Fruits',
         bigText: 'FRESH FRUITS',
-        bgColor: '#f2ff32'
+        bgColor: '#'
     },
 ]
 
@@ -33,6 +33,7 @@ const ShopCategories = () => {
                         categoryData.map((data) => (
                             <div key={data.id} className="w-full p-2">
                                 <CategoryCard bgImage={data.bgImage} smallText={data.smallText} largeText={data.bigText} bgColor={data.bgColor} />
+                                
                             </div>
                         ))
                     }
