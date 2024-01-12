@@ -1,8 +1,10 @@
 const PrimaryButton = ({btnText}) => {
     return (
-        <button className="bg-primary-green text-white py-2 px-4 mt-4 rounded-md w-10/12 hover:bg-orange">
+        <div className="button">
+        <button className="bg-primary-green text-white py-2 px-4 rounded-md  text-xl font-bold hover:bg-accent-orange">
             {btnText}
         </button>
+        </div>
     );
 }
 
